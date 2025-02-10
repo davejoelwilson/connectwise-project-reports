@@ -3,6 +3,8 @@ import os
 import httpx
 import base64
 import logging
+import asyncio
+from datetime import datetime, timedelta
 from functools import lru_cache, partial
 from dotenv import load_dotenv
 
@@ -10,9 +12,45 @@ load_dotenv()
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
+class RateLimiter:
+    """Rate limiter using token bucket algorithm"""
+    def __init__(self, rate_limit: int = 1000, time_window: int = 60):
+        self.rate_limit = rate_limit  # requests per time window
+        self.time_window = time_window  # time window in seconds
+        self.tokens = rate_limit
+        self.last_update = datetime.now()
+        self._lock = asyncio.Lock()
+    
+    async def acquire(self):
+        """Acquire a token for making a request"""
+        async with self._lock:
+            now = datetime.now()
+            time_passed = (now - self.last_update).total_seconds()
+            
+            # Replenish tokens based on time passed
+            self.tokens = min(
+                self.rate_limit,
+                self.tokens + int((time_passed * self.rate_limit) / self.time_window)
+            )
+            self.last_update = now
+            
+            if self.tokens > 0:
+                self.tokens -= 1
+                return True
+            
+            # Calculate wait time if no tokens available
+            wait_time = (self.time_window / self.rate_limit) - time_passed
+            if wait_time > 0:
+                logger.warning(f"Rate limit reached, waiting {wait_time:.2f} seconds")
+                await asyncio.sleep(wait_time)
+                self.tokens = 1
+                self.tokens -= 1
+            return True
+
 class ConnectWiseClient:
     # Class-level client for connection pooling
     _http_client: ClassVar[Optional[httpx.AsyncClient]] = None
+    _rate_limiter: ClassVar[Optional[RateLimiter]] = None
     
     # Common field sets
     BASIC_FIELDS = ['id', 'name']
@@ -41,6 +79,10 @@ class ConnectWiseClient:
         if not all([self.base_url, self.company, self.public_key, self.private_key, self.client_id]):
             raise ValueError("Missing required ConnectWise configuration")
         
+        # Initialize rate limiter if not exists
+        if ConnectWiseClient._rate_limiter is None:
+            ConnectWiseClient._rate_limiter = RateLimiter()
+        
         logger.debug(f"Initialized ConnectWise client with base URL: {self.base_url}")
         logger.debug(f"Using Company: {self.company}")
         logger.debug(f"Using Client ID: {self.client_id}")
@@ -55,6 +97,11 @@ class ConnectWiseClient:
                 limits=httpx.Limits(max_keepalive_connections=5, max_connections=10)
             )
         return self._http_client
+
+    @property
+    def rate_limiter(self) -> RateLimiter:
+        """Get the rate limiter instance"""
+        return self._rate_limiter
 
     @lru_cache(maxsize=1)
     def _get_basic_auth(self) -> str:
@@ -94,12 +141,15 @@ class ConnectWiseClient:
         return params
 
     async def get(self, endpoint: str, params: Optional[Dict[str, Any]] = None) -> Any:
-        """Make a GET request to the ConnectWise API"""
+        """Make a GET request to the ConnectWise API with rate limiting"""
         url = f"{self.base_url}/{endpoint}"
         headers = await self._get_headers()
         
         logger.debug(f"Making request to: {url}")
         logger.debug(f"With params: {params}")
+        
+        # Apply rate limiting
+        await self.rate_limiter.acquire()
         
         max_retries = 3
         retry_count = 0
@@ -110,6 +160,12 @@ class ConnectWiseClient:
                 
                 if response.status_code == 200:
                     return response.json()
+                
+                if response.status_code == 429:  # Too Many Requests
+                    retry_after = int(response.headers.get('Retry-After', 60))
+                    logger.warning(f"Rate limit exceeded, waiting {retry_after} seconds")
+                    await asyncio.sleep(retry_after)
+                    continue
                     
                 if response.status_code >= 500 and retry_count < max_retries - 1:
                     retry_count += 1

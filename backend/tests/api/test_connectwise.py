@@ -1,7 +1,9 @@
 import pytest
-from backend.connectwise.client import ConnectWiseClient
+from backend.connectwise.client import ConnectWiseClient, RateLimiter
 import logging
 import os
+import asyncio
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -15,6 +17,34 @@ def cw_client():
     # Debug log the auth token
     logger.debug(f"Auth token: {client._get_basic_auth()}")
     return client
+
+@pytest.mark.asyncio
+async def test_rate_limiter():
+    """Test rate limiter behavior"""
+    # Create a rate limiter with small values for testing
+    limiter = RateLimiter(rate_limit=2, time_window=1)
+    
+    # First two requests should go through immediately
+    start_time = datetime.now()
+    assert await limiter.acquire()
+    assert await limiter.acquire()
+    
+    # Third request should be delayed
+    await limiter.acquire()
+    time_taken = (datetime.now() - start_time).total_seconds()
+    assert time_taken >= 0.5, "Rate limiter should have delayed the request"
+
+@pytest.mark.asyncio
+async def test_concurrent_requests(cw_client):
+    """Test multiple concurrent requests with rate limiting"""
+    # Make multiple concurrent requests
+    tasks = []
+    for _ in range(5):
+        tasks.append(cw_client.get_projects({'page': 1, 'pageSize': 1}))
+    
+    # All requests should complete without errors
+    results = await asyncio.gather(*tasks, return_exceptions=True)
+    assert all(not isinstance(r, Exception) for r in results), "All requests should succeed"
 
 @pytest.mark.asyncio
 async def test_verify_credentials(cw_client):
