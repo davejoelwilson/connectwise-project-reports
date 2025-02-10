@@ -1,0 +1,39 @@
+{
+    "managed_projects": {
+        "12345": {
+            "name": "Project A",
+            "team": ["member1", "member2"],
+            "reporting_frequency": "weekly",
+            "report_recipients": ["email1@domain.com", "email2@domain.com"],
+            "metrics": {
+                "track_time": true,
+                "track_tickets": true,
+                "track_budget": true,
+                "budget_alerts": {
+                    "warning_threshold": 80,
+                    "critical_threshold": 90
+                }
+            },
+            "notifications": {
+                "slack_channel": "#project-a-alerts",
+                "email_alerts": true
+            }
+        }
+    },
+    "global_settings": {
+        "default_reporting_frequency": "monthly",
+        "time_zone": "UTC",
+        "work_hours": {
+            "start": "09:00",
+            "end": "17:00"
+        },
+        "holidays": [
+            "2024-01-01",
+            "2024-12-25"
+        ],
+        "report_templates": {
+            "weekly": "templates/weekly_report.md",
+            "monthly": "templates/monthly_report.md"
+        }
+    }
+} 

@@ -1,0 +1,8 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+streamlit==1.24.1
+httpx==0.24.1
+langchain==0.0.148
+# crewai is a placeholder for Crew AI integration, replace with the actual package name if available
+crewai==0.1.0
+pytest==7.2.2
