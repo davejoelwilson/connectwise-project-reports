@@ -1,0 +1,564 @@
+{
+  "project": {
+    "id": 4216,
+    "actualHours": 1.12,
+    "billingMethod": "FixedFee",
+    "company": {
+      "name": "Electropar Limited"
+    },
+    "estimatedHours": 0.0,
+    "manager": {
+      "identifier": "LeonieV"
+    },
+    "name": "Quote S13205 - ELE - Services for Host Cluster Solution",
+    "status": {
+      "name": "3. In Delivery"
+    }
+  },
+  "project_notes": [],
+  "tickets": [
+    {
+      "id": 703213,
+      "summary": "Project Management  and meetings",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4216,
+        "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.97
+    },
+    {
+      "id": 703192,
+      "summary": "Quote Summary",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4216,
+        "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.0
+    },
+    {
+      "id": 701652,
+      "summary": "Communication",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4216,
+        "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.15
+    },
+    {
+      "id": 700971,
+      "summary": "Contingency (DO NOT BILL IF UNUSE or BILL ONLY WHAT WAS USED)",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 4216,
+        "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 700970,
+      "summary": "Server OS Upgrades",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 4216,
+        "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 700969,
+      "summary": "Backup Configuration",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 4216,
+        "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 700968,
+      "summary": "Documentation",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 4216,
+        "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 700967,
+      "summary": "Removing Hardware, Cable Management and Tidy",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 4216,
+        "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 700966,
+      "summary": "Onsite Installation",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 4216,
+        "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 700965,
+      "summary": "Migration and User Acceptance (After Hours)",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 4216,
+        "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 700964,
+      "summary": "Migration and User Acceptance (Business Hours)",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 4216,
+        "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 700963,
+      "summary": "Planning and Assessment",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4216,
+        "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    }
+  ],
+  "ticket_details": {
+    "703213": {
+      "ticket": {
+        "id": 703213,
+        "summary": "Project Management  and meetings",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4216,
+          "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 0.97
+      },
+      "notes": [
+        {
+          "id": 680014,
+          "text": "ELE - Kick-off meeting (Discuss the BOM and ordering process)",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 680014,
+          "_info": {
+            "notes": "ELE - Kick-off meeting (Discuss the BOM and ordering process)",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/680014"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-12T07:57:06.549543"
+    },
+    "703192": {
+      "ticket": {
+        "id": 703192,
+        "summary": "Quote Summary",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4216,
+          "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 0.0
+      },
+      "notes": [
+        {
+          "id": 679995,
+          "text": "Background: Quote has been split into Labour \\(Services\\) below and Hardware in quote S13150\nElectropar is seeking to upgrade their IT infrastructure to ensure robust performance, reliability, and scalability. Currently, their infrastructure is aging, posing risks to their operations and data integrity. This upgrade is essential to support their 15 virtual machines \\(VMs\\) efficiently and securely.\u00a0\n\nIT360 have been highlighting the risk of the existing infrastructure and this has now become critical as we have no confidence in the existing hardware and there have been backup failures and host failures as a result of the unreliable hardware.\nWe have provided a proposal to replace the cluster with current infrastructure and upgrade the operating systems to a supported version to address the concerns and allow your business to\u00a0add new services with confidence in the infrastructure.\nObjective:\nThe primary objective is to implement a clustered host solution that will support Electropar's VMs, enhancing overall system reliability, performance, and scalability while addressing any current infrastructure limitations.\nScope:\n**1\\. Hardware Replacement and Installation:**\n* **Procurement and Installation:** We will provide and install new, state-of-the-art hardware on-site, including servers, storage solutions, and network switches. This will replace Electropar's existing, outdated equipment, ensuring improved performance and reliability.\n* **Clustered Host Solution:** The new infrastructure will be designed to support a clustered host environment, providing high availability and fault tolerance for Electropar's 15 VMs.\n* **Data Migration:** We will manage the migration of VMs from the current setup to the new clustered environment, ensuring minimal downtime and maintaining data integrity throughout the process.\n**2\\. Network Infrastructure Enhancement:**\n* **Network Switches:** The project includes upgrading Electropar\u2019s network infrastructure with new, high-performance switches, enhancing network speed, reliability, and security.\n* **Network Configuration:** Necessary adjustments and configurations will be made to ensure seamless integration with existing systems and optimized network performance.\n**3\\. Backup and Storage Solutions:**\n* **Storage Upgrade:** Implementation of a new, advanced storage solution that provides better performance and reliability. This includes upgrading to the latest storage technologies to support the increased demands of the VMs.\n* **Backup Enhancements:** We will implement a robust backup solution to protect against data loss, ensuring that all VMs and critical data are securely backed up and can be quickly restored if needed.\n**4\\. Decommissioning and Cleanup:**\n* **Old Equipment Decommissioning:** Safe decommissioning and disposal of outdated servers and hardware. This will also include cleaning up server racks to optimize space, improve airflow, and maintain an organized environment.\n5\\. Upgrading Server OS for All Servers on Windows Server 2012 and Older\n* **Upgrade the Server OS for all servers running Windows Server 2012 and older:**\u00a0\nThe specific servers include:\n* **ELE-CHOST1:** Windows 2012 R2\n* **ELE-CHOST2:** Windows 2012 R2\n* **ELE-DATA01:** Windows 2012 R2\n* **ELE-DC01:** Windows 2012 R2\n* **ELE-DC02:** Windows 2012 R2\n* **ELE-DPM:** Windows 2012 R2\n* **ELE-EPICOR10:** Windows 2012 R2\n* **ELE-GM01:** Windows 2012 R2\n* **ELE-MAILRELAY:** Windows 2012 R2\n* **ELE-MDMG:** Windows 2012 R2\n* **ELE-PHOCAS:** Windows 2012 R2\n* **ELE-PRINT:** Windows 2008 R2\n* **ELE-REP01:** Windows 2012 R2\n* **ELE-TS01:** Windows 2008 R2\n* **ELE-VEEAM:** Windows 2012 R2\n\nDeliverables:\nUpon completion, Electropar will receive:\n* An upgraded, reliable, and scalable IT infrastructure.\n* Efficient migration of VMs with minimal operational disruption.\n* Enhanced network performance with new switches and optimized configurations.\n* A robust backup solution ensuring data security and quick recovery options.\n* Decommissioned old equipment and an organized server room.\n* Upgrade servers to a supported Server OS.\nOut of Scope:\n* Detailed user training or support beyond the immediate transition period.\n* Additional cables and accessories required for the implementation are not included and will be charged separately.\nThis upgrade will not only address the immediate needs but also position Electropar for future growth and technological advancements, ensuring their operations are supported by a robust and scalable IT infrastructure.",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 679995,
+          "_info": {
+            "notes": "Background: Quote has been split into Labour (Services) below and Hardware in quote S13150\nElectropar is seeking to upgrade their IT infrastructure to ensure robust performance, reliability, and scalability. Currently, their infrastructure is aging, posing risks to their operations and data integrity. This upgrade is essential to support their 15 virtual machines (VMs) efficiently and securely.\u00a0\n\nIT360 have been highlighting the risk of the existing infrastructure and this has now become critical as we have no confidence in the existing hardware and there have been backup failures and host failures as a result of the unreliable hardware.\nWe have provided a proposal to replace the cluster with current infrastructure and upgrade the operating systems to a supported version to address the concerns and allow your business to\u00a0add new services with confidence in the infrastructure.\nObjective:\nThe primary objective is to implement a clustered host solution that will support Electropar's VMs, enhancing overall system reliability, performance, and scalability while addressing any current infrastructure limitations.\nScope:\n1. Hardware Replacement and Installation:\n Procurement and Installation: We will provide and install new, state-of-the-art hardware on-site, including servers, storage solutions, and network switches. This will replace Electropar's existing, outdated equipment, ensuring improved performance and reliability.\n Clustered Host Solution: The new infrastructure will be designed to support a clustered host environment, providing high availability and fault tolerance for Electropar's 15 VMs.\n Data Migration: We will manage the migration of VMs from the current setup to the new clustered environment, ensuring minimal downtime and maintaining data integrity throughout the process.\n2. Network Infrastructure Enhancement:\n Network Switches: The project includes upgrading Electropar\u2019s network infrastructure with new, high-performance switches, enhancing network speed, reliability, and security.\n Network Configuration: Necessary adjustments and configurations will be made to ensure seamless integration with existing systems and optimized network performance.\n3. Backup and Storage Solutions:\n Storage Upgrade: Implementation of a new, advanced storage solution that provides better performance and reliability. This includes upgrading to the latest storage technologies to support the increased demands of the VMs.\n Backup Enhancements: We will implement a robust backup solution to protect against data loss, ensuring that all VMs and critical data are securely backed up and can be quickly restored if needed.\n4. Decommissioning and Cleanup:\n Old Equipment Decommissioning: Safe decommissioning and disposal of outdated servers and hardware. This will also include cleaning up server racks to optimize space, improve airflow, and maintain an organized environment.\n5. Upgrading Server OS for All Servers on Windows Server 2012 and Older\n Upgrade the Server OS for all servers running Windows Server 2012 and older:\u00a0\nThe specific servers include:\n ELE-CHOST1: Windows 2012 R2\n ELE-CHOST2: Windows 2012 R2\n ELE-DATA01: Windows 2012 R2\n ELE-DC01: Windows 2012 R2\n ELE-DC02: Windows 2012 R2\n ELE-DPM: Windows 2012 R2\n ELE-EPICOR10: Windows 2012 R2\n ELE-GM01: Windows 2012 R2\n ELE-MAILRELAY: Windows 2012 R2\n ELE-MDMG: Windows 2012 R2\n ELE-PHOCAS: Windows 2012 R2\n ELE-PRINT: Windows 2008 R2\n ELE-REP01: Windows 2012 R2\n ELE-TS01: Windows 2008 R2\n ELE-VEEAM: Windows 2012 R2\n\nDeliverables:\nUpon completion, Electropar will receive:\n An upgraded, reliable, and scalable IT infrastructure.\n Efficient migration of VMs with minimal operational disruption.\n Enhanced network performance with new switches and optimized configurations.\n A robust backup solution ensuring data security and quick recovery options.\n Decommissioned old equipment and an organized server room.\n Upgrade servers to a supported Server OS.\nOut of Scope:\n Detailed user training or support beyond t...",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679995"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-12T07:57:06.680591"
+    },
+    "701652": {
+      "ticket": {
+        "id": 701652,
+        "summary": "Communication",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4216,
+          "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 0.15
+      },
+      "notes": [
+        {
+          "id": 679340,
+          "text": "Review schedules and book Kick-off meeting",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 679340,
+          "_info": {
+            "notes": "Review schedules and book Kick-off meeting",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679340"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-12T07:57:06.812839"
+    },
+    "700971": {
+      "ticket": {
+        "id": 700971,
+        "summary": "Contingency (DO NOT BILL IF UNUSE or BILL ONLY WHAT WAS USED)",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 4216,
+          "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2641497,
+          "text": "Contingency (DO NOT BILL IF UNUSE or BILL ONLY WHAT WAS USED)",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-12T07:57:06.947441"
+    },
+    "700970": {
+      "ticket": {
+        "id": 700970,
+        "summary": "Server OS Upgrades",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 4216,
+          "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2641496,
+          "text": "Server OS Upgrades",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-12T07:57:07.187445"
+    },
+    "700969": {
+      "ticket": {
+        "id": 700969,
+        "summary": "Backup Configuration",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 4216,
+          "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2641495,
+          "text": "Backup Configuration",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-12T07:57:07.288755"
+    },
+    "700968": {
+      "ticket": {
+        "id": 700968,
+        "summary": "Documentation",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 4216,
+          "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2641494,
+          "text": "Documentation",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-12T07:57:07.378657"
+    },
+    "700967": {
+      "ticket": {
+        "id": 700967,
+        "summary": "Removing Hardware, Cable Management and Tidy",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 4216,
+          "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2641493,
+          "text": "Removing Hardware, Cable Management and Tidy",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-12T07:57:07.484664"
+    },
+    "700966": {
+      "ticket": {
+        "id": 700966,
+        "summary": "Onsite Installation",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 4216,
+          "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2641492,
+          "text": "Onsite Installation",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-12T07:57:07.597787"
+    },
+    "700965": {
+      "ticket": {
+        "id": 700965,
+        "summary": "Migration and User Acceptance (After Hours)",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 4216,
+          "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2641491,
+          "text": "Migration and User Acceptance (After Hours)",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-12T07:57:07.702842"
+    },
+    "700964": {
+      "ticket": {
+        "id": 700964,
+        "summary": "Migration and User Acceptance (Business Hours)",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 4216,
+          "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2641490,
+          "text": "Migration and User Acceptance (Business Hours)",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-12T07:57:07.807236"
+    },
+    "700963": {
+      "ticket": {
+        "id": 700963,
+        "summary": "Planning and Assessment",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4216,
+          "name": "Quote S13205 - ELE - Services for Host Cluster Solution"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2641489,
+          "text": "Planning and Assessment",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-12T07:57:07.914243"
+    }
+  },
+  "project_time_entries": [],
+  "members": [
+    {
+      "id": 251
+    }
+  ],
+  "collected_at": "2025-02-12T07:57:07.973227"
+}

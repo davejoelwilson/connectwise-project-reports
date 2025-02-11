@@ -199,6 +199,21 @@ async def get_members(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.get("/api/projects/{project_id}/analysis")
+async def get_project_regular_analysis(project_id: int):
+    """Get regular analysis data for a specific project"""
+    try:
+        # Check if analysis exists
+        analysis_file = Path(f"data/analysis/project_{project_id}_analysis.json")
+        if not analysis_file.exists():
+            raise HTTPException(status_code=404, detail="Analysis not found")
+            
+        # Return the analysis directly
+        with open(analysis_file) as f:
+            return json.load(f)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)

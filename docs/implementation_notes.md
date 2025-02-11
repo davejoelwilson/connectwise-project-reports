@@ -75,3 +75,67 @@ async def get_project_analysis(project_id: int):
 - Differentiate between analysis generation and serving pre-generated analysis
 - Keep API endpoints simple and focused
 - Use appropriate error handling for file operations 
+
+## Database Design (Proposed)
+
+### Schema Design
+
+```sql
+-- Project Analysis
+CREATE TABLE project_analyses (
+    id SERIAL PRIMARY KEY,
+    project_id INTEGER NOT NULL,
+    health_score INTEGER,
+    completion_rate FLOAT,
+    risk_level VARCHAR(10),
+    analyzed_at TIMESTAMP,
+    model_version VARCHAR(50),
+    raw_analysis JSONB,  -- Store full analysis JSON
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Analysis History (for tracking changes)
+CREATE TABLE analysis_history (
+    id SERIAL PRIMARY KEY,
+    project_id INTEGER NOT NULL,
+    analysis_id INTEGER REFERENCES project_analyses(id),
+    previous_health_score INTEGER,
+    new_health_score INTEGER,
+    changed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Cache Configuration
+REDIS:
+  project_analysis:{project_id} -> {analysis_json}
+  TTL: 24 hours (configurable)
+```
+
+### Benefits Over Current JSON Files:
+1. **Data Integrity**
+   - Proper relationships between entities
+   - Transaction support
+   - Concurrent access handling
+
+2. **Performance**
+   - Indexed queries
+   - Efficient updates
+   - Redis caching layer for fast retrieval
+
+3. **Maintainability**
+   - Version control of analyses
+   - Easy backup/restore
+   - Migration support
+
+4. **Features Enabled**
+   - Historical trend analysis
+   - Change tracking
+   - Performance metrics
+   - Multi-user support
+
+### Implementation Plan:
+1. Add SQLAlchemy models
+2. Set up Redis caching
+3. Create migration scripts
+4. Update API endpoints
+5. Add data versioning 

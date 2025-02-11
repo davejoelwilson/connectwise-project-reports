@@ -6,9 +6,14 @@ from datetime import datetime
 from openai import AsyncOpenAI
 import agentops
 from pathlib import Path
+import logging
 
 # Initialize AgentOps
 agentops.init(os.getenv('AGENTOPS_API_KEY'))
+
+# Configure logging
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
 
 class AIProjectAnalyzer:
     def __init__(self):
@@ -27,6 +32,7 @@ class AIProjectAnalyzer:
         # Check cache first
         cache_file = self.cache_dir / f"analysis_{project_id}_{datetime.now().strftime('%Y%m%d')}.json"
         if cache_file.exists():
+            logger.info(f"Using cached analysis for project {project_id}")
             with open(cache_file) as f:
                 return json.load(f)
         
@@ -67,6 +73,9 @@ The response must be a valid JSON object with the following structure:
     }
 }"""
 
+            logger.info(f"Making OpenAI API call for project {project_id}")
+            logger.debug(f"Using model: o3-mini")
+            
             # Call OpenAI API with modern client
             response = await self.client.chat.completions.create(
                 model="o3-mini",
@@ -74,10 +83,10 @@ The response must be a valid JSON object with the following structure:
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.7,
-                max_tokens=2000,
                 response_format={ "type": "json_object" }
             )
+            
+            logger.debug(f"OpenAI API response received: {len(response.choices[0].message.content)} chars")
             
             # Parse the JSON response
             try:
@@ -96,7 +105,10 @@ The response must be a valid JSON object with the following structure:
                     'analyzed_at': datetime.now().isoformat(),
                     'model_version': "o3-mini"
                 })
-            except json.JSONDecodeError:
+                logger.info(f"Successfully parsed JSON response for project {project_id}")
+            except json.JSONDecodeError as e:
+                logger.error(f"Failed to parse JSON response: {str(e)}")
+                logger.debug(f"Raw response content: {content}")
                 # Fallback if JSON parsing fails
                 analysis = {
                     'error': 'Failed to parse AI response as JSON',
@@ -108,10 +120,12 @@ The response must be a valid JSON object with the following structure:
             # Cache the results
             with open(cache_file, 'w') as f:
                 json.dump(analysis, f, indent=2)
+            logger.info(f"Cached analysis results for project {project_id}")
             
             return analysis
             
         except Exception as e:
+            logger.error(f"Error during analysis: {str(e)}")
             error_response = {
                 'error': str(e),
                 'analyzed_at': datetime.now().isoformat(),

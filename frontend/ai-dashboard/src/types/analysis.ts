@@ -35,6 +35,8 @@ export interface TimelinePrediction {
 
 export interface AIAnalysis {
   health_score: number;
+  project_name: string;
+  company_name: string;
   progress_analysis: ProgressAnalysis;
   risks: Risk;
   blockers: Blockers;

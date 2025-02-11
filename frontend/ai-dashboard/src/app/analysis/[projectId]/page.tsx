@@ -13,23 +13,38 @@ import { AIAnalysis } from "@/types/analysis";
 import Loading from "./loading";
 import ErrorBoundary from "@/components/ErrorBoundary";
 import React from "react";
+import Link from "next/link";
+import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 
 async function getProjectAnalysis(projectId: string): Promise<AIAnalysis> {
   const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000';
   console.log('Fetching analysis from:', `${apiUrl}/api/analysis/${projectId}`);
-  const response = await fetch(`${apiUrl}/api/analysis/${projectId}`);
   
-  if (!response.ok) {
+  // Fetch both AI analysis and regular analysis
+  const [aiResponse, analysisResponse] = await Promise.all([
+    fetch(`${apiUrl}/api/analysis/${projectId}`),
+    fetch(`${apiUrl}/api/projects/${projectId}/analysis`)
+  ]);
+  
+  if (!aiResponse.ok || !analysisResponse.ok) {
     throw new Error(
-      response.status === 404 
+      aiResponse.status === 404 || analysisResponse.status === 404
         ? "Analysis not found for this project. Please run analysis first." 
         : "Failed to fetch project analysis"
     );
   }
 
-  const data = await response.json();
-  console.log('Received analysis data:', data);
-  return data;
+  const [aiData, analysisData] = await Promise.all([
+    aiResponse.json(),
+    analysisResponse.json()
+  ]);
+
+  // Use project name and company from the regular analysis data
+  return {
+    ...aiData,
+    project_name: analysisData.project_name,
+    company_name: analysisData.company
+  };
 }
 
 export default function AnalysisPage({ params }: { params: { projectId: string } }) {
@@ -95,9 +110,25 @@ function AnalysisContent({
   console.log('Rendering analysis content');
   return (
     <div>
-      <div className="mb-8">
-        <Title className="text-2xl font-bold text-gray-900 mb-2">Project Analysis</Title>
-        <Text className="text-gray-600">Health Score: {analysis.health_score}/100</Text>
+      <div className="flex justify-between items-center mb-8">
+        <div>
+          <Link 
+            href="/"
+            className="inline-flex items-center text-gray-600 hover:text-gray-900 mb-4"
+          >
+            <ArrowLeftIcon className="h-4 w-4 mr-1" />
+            Back to Projects
+          </Link>
+          <Title className="text-2xl font-bold text-gray-900 mb-2">
+            {analysis.project_name}
+          </Title>
+          <Text className="text-gray-600 mb-2">
+            Customer: {analysis.company_name}
+          </Text>
+          <Text className="text-gray-600">
+            Health Score: {analysis.health_score}/100
+          </Text>
+        </div>
       </div>
 
       <Grid numItems={1} numItemsSm={2} numItemsLg={3} className="gap-4">

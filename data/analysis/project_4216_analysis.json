@@ -1,0 +1,102 @@
+{
+  "project_id": 4216,
+  "project_name": "Quote S13205 - ELE - Services for Host Cluster Solution",
+  "status": "3. In Delivery",
+  "manager": "LeonieV",
+  "company": "Electropar Limited",
+  "estimated_hours": 0.0,
+  "actual_hours": 1.12,
+  "ticket_count": 12,
+  "active_tickets": 12,
+  "ticket_summaries": [
+    {
+      "id": 703213,
+      "summary": "Project Management  and meetings",
+      "status": "In Progress Now",
+      "progress": 97,
+      "key_updates": 0
+    },
+    {
+      "id": 703192,
+      "summary": "Quote Summary",
+      "status": "In Progress Now",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 701652,
+      "summary": "Communication",
+      "status": "In Progress Now",
+      "progress": 15,
+      "key_updates": 0
+    },
+    {
+      "id": 700971,
+      "summary": "Contingency (DO NOT BILL IF UNUSE or BILL ONLY WHAT WAS USED)",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 700970,
+      "summary": "Server OS Upgrades",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 700969,
+      "summary": "Backup Configuration",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 700968,
+      "summary": "Documentation",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 700967,
+      "summary": "Removing Hardware, Cable Management and Tidy",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 700966,
+      "summary": "Onsite Installation",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 700965,
+      "summary": "Migration and User Acceptance (After Hours)",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 700964,
+      "summary": "Migration and User Acceptance (Business Hours)",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 700963,
+      "summary": "Planning and Assessment",
+      "status": "In Progress Now",
+      "progress": 0,
+      "key_updates": 0
+    }
+  ],
+  "project_updates": [],
+  "team_members": [
+    "251"
+  ],
+  "analysis_date": "2025-02-12T07:57:07.974649"
+}
