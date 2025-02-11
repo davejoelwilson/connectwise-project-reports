@@ -1,0 +1,927 @@
+{
+  "project": {
+    "id": 4122,
+    "actualHours": 28.39,
+    "billingMethod": "FixedFee",
+    "company": {
+      "name": "East Coast Bays Engineering (2015) Limited"
+    },
+    "estimatedHours": 0.0,
+    "manager": {
+      "identifier": "LeonieV"
+    },
+    "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration",
+    "scheduledStart": "2025-01-20T00:00:00Z",
+    "status": {
+      "name": "3. In Delivery"
+    }
+  },
+  "project_notes": [],
+  "tickets": [
+    {
+      "id": 683492,
+      "summary": "Internal Kick-off Meeting",
+      "status": {
+        "name": "Closed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.05
+    },
+    {
+      "id": 683117,
+      "summary": "Documentation",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.5
+    },
+    {
+      "id": 683109,
+      "summary": "Post Migration",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 683107,
+      "summary": "NAS and DB Migration ",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 4.5
+    },
+    {
+      "id": 683105,
+      "summary": "AD Decommissioning",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.0
+    },
+    {
+      "id": 683104,
+      "summary": "Migrating DNS & DHCP from server to Gateway device",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.75
+    },
+    {
+      "id": 683103,
+      "summary": "SharePoint Migration",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 6.75
+    },
+    {
+      "id": 683102,
+      "summary": "Decommission Scanner Licenses and Setup SMTP2GO",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.5
+    },
+    {
+      "id": 683101,
+      "summary": "Azure AD join and moving the user profile to OneDrive",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 7.0
+    },
+    {
+      "id": 683100,
+      "summary": "Requirements Analysis ",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.5
+    },
+    {
+      "id": 680134,
+      "summary": "iT360 365 backups (Cove)",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.47
+    },
+    {
+      "id": 680133,
+      "summary": "Huntress 365 MDR",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.17
+    },
+    {
+      "id": 680068,
+      "summary": "Project Management & Administation",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 2.2
+    }
+  ],
+  "ticket_details": {
+    "683492": {
+      "ticket": {
+        "id": 683492,
+        "summary": "Internal Kick-off Meeting",
+        "status": {
+          "name": "Closed"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 1.05
+      },
+      "notes": [
+        {
+          "id": 669994,
+          "text": "# Internal kick off with Leonie and Colin\n",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 670333,
+          "text": "Internal Kick-off Meeting (Colin & Ryan)",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 669994,
+          "_info": {
+            "notes": "# Internal kick off with Leonie and Colin\n",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/669994"
+          }
+        },
+        {
+          "id": 670333,
+          "_info": {
+            "notes": "Internal Kick-off Meeting (Colin & Ryan)",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/670333"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:41.188322"
+    },
+    "683117": {
+      "ticket": {
+        "id": 683117,
+        "summary": "Documentation",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 0.5
+      },
+      "notes": [
+        {
+          "id": 679735,
+          "text": "Documentation and setup of synology accounts.",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 679735,
+          "_info": {
+            "notes": "Documentation and setup of synology accounts.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679735"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:41.291937"
+    },
+    "683109": {
+      "ticket": {
+        "id": 683109,
+        "summary": "Post Migration",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:41.390173"
+    },
+    "683107": {
+      "ticket": {
+        "id": 683107,
+        "summary": "NAS and DB Migration ",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 4.5
+      },
+      "notes": [
+        {
+          "id": 679734,
+          "text": "Installed HDD's in NAS and setup NAS for network\nCopied data across to NAS, Access DB and a backup of user data and shared folders.\nDeployed NAS onsite\nInvestigated how DB is accessed - \nUser's open the access file from a local file on their pc, which then calls resources from the shared folders using the \\\\\\\\server\\\\accessdb path\n\nWith the DB sitting on the NAS, we need to move the DHCP and DNS roles from the server and to the router, turn off the server and rename the NAS to Server, and remap the shared folder location on Thomas's pc and then test.",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 679734,
+          "_info": {
+            "notes": "Installed HDD's in NAS and setup NAS for network\nCopied data across to NAS, Access DB and a backup of user data and shared folders.\nDeployed NAS onsite\nInvestigated how DB is accessed - \nUser's open the access file from a local file on their pc, which then calls resources from the shared folders using the \\\\server\\accessdb path\n\nWith the DB sitting on the NAS, we need to move the DHCP and DNS roles from the server and to the router, turn off the server and rename the NAS to Server, and remap the shared folder location on Thomas's pc and then test.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679734"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:41.502033"
+    },
+    "683105": {
+      "ticket": {
+        "id": 683105,
+        "summary": "AD Decommissioning",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 1.0
+      },
+      "notes": [
+        {
+          "id": 679983,
+          "text": "Decommission server AD",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2646246,
+          "text": "Assigned / RyanMag / ",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 679983,
+          "_info": {
+            "notes": "Decommission server AD",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679983"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:41.666499"
+    },
+    "683104": {
+      "ticket": {
+        "id": 683104,
+        "summary": "Migrating DNS & DHCP from server to Gateway device",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 1.75
+      },
+      "notes": [
+        {
+          "id": 679862,
+          "text": "# Teams call with Colin, peer review of the FW DHCP configuration\n",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679985,
+          "text": "Documented server services\nStopped services on server\nShut Down server\nCreated DHCP and DNS scopes for Firewall\nChecked all pc's, changed adaptor settings and tested successfully.",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 679862,
+          "_info": {
+            "notes": "# Teams call with Colin, peer review of the FW DHCP configuration\n",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679862"
+          }
+        },
+        {
+          "id": 679985,
+          "_info": {
+            "notes": "Documented server services\nStopped services on server\nShut Down server\nCreated DHCP and DNS scopes for Firewall\nChecked all pc's, changed adaptor settings and tested successfully.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679985"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:41.789829"
+    },
+    "683103": {
+      "ticket": {
+        "id": 683103,
+        "summary": "SharePoint Migration",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 6.75
+      },
+      "notes": [
+        {
+          "id": 676887,
+          "text": "Sharepoint discussion and investigation\nCollected ECB user details for sharepoint migration.",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 678041,
+          "text": "Sharepoint migration of shared folder from server.",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 678044,
+          "text": "Travel to site",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 678045,
+          "text": "Onsite at ECB\nUpdate of all pc's to one drive\nMigration of users data from server to one drive.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 678046,
+          "text": "Travel offsite",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 678210,
+          "text": "Called and discussed sharepoint with Nagesh\nSynced shared folder from sharepoint to pc.",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 676887,
+          "_info": {
+            "notes": "Sharepoint discussion and investigation\nCollected ECB user details for sharepoint migration.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/676887"
+          }
+        },
+        {
+          "id": 678041,
+          "_info": {
+            "notes": "Sharepoint migration of shared folder from server.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/678041"
+          }
+        },
+        {
+          "id": 678044,
+          "_info": {
+            "notes": "Travel to site",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/678044"
+          }
+        },
+        {
+          "id": 678045,
+          "_info": {
+            "notes": "Onsite at ECB\nUpdate of all pc's to one drive\nMigration of users data from server to one drive.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/678045"
+          }
+        },
+        {
+          "id": 678046,
+          "_info": {
+            "notes": "Travel offsite",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/678046"
+          }
+        },
+        {
+          "id": 678210,
+          "_info": {
+            "notes": "Called and discussed sharepoint with Nagesh\nSynced shared folder from sharepoint to pc.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/678210"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:41.907470"
+    },
+    "683102": {
+      "ticket": {
+        "id": 683102,
+        "summary": "Decommission Scanner Licenses and Setup SMTP2GO",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 1.5
+      },
+      "notes": [
+        {
+          "id": 679255,
+          "text": "Created SMTP2go accounts\nConfigured printers and tested",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679256,
+          "text": "Testing and config of the main office printer",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 679255,
+          "_info": {
+            "notes": "Created SMTP2go accounts\nConfigured printers and tested",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679255"
+          }
+        },
+        {
+          "id": 679256,
+          "_info": {
+            "notes": "Testing and config of the main office printer",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679256"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:42.009761"
+    },
+    "683101": {
+      "ticket": {
+        "id": 683101,
+        "summary": "Azure AD join and moving the user profile to OneDrive",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 7.0
+      },
+      "notes": [
+        {
+          "id": 678613,
+          "text": "Travel to and from site\nChanged over all profiles to Azure",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 678660,
+          "text": "Prepped all pc's for the move to Azure",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 678661,
+          "text": "Completed clean up and moved over final pc.",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 678613,
+          "_info": {
+            "notes": "Travel to and from site\nChanged over all profiles to Azure",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/678613"
+          }
+        },
+        {
+          "id": 678660,
+          "_info": {
+            "notes": "Prepped all pc's for the move to Azure",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/678660"
+          }
+        },
+        {
+          "id": 678661,
+          "_info": {
+            "notes": "Completed clean up and moved over final pc.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/678661"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:42.141018"
+    },
+    "683100": {
+      "ticket": {
+        "id": 683100,
+        "summary": "Requirements Analysis ",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 1.5
+      },
+      "notes": [
+        {
+          "id": 670316,
+          "text": "# Remoted in to SERVER via SC\n# Launched computer management\n# Browsed to Shared Folders > Shares, shared is located from D:\\\\ServerFolders\\\\\n# Created the folder structure and permission sheet",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 676886,
+          "text": "Discussion on Sharepoint with Nicky",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 670316,
+          "_info": {
+            "notes": "# Remoted in to SERVER via SC\n# Launched computer management\n# Browsed to Shared Folders > Shares, shared is located from D:\\ServerFolders\\\n# Created the folder structure and permission sheet",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/670316"
+          }
+        },
+        {
+          "id": 676886,
+          "_info": {
+            "notes": "Discussion on Sharepoint with Nicky",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/676886"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:42.313352"
+    },
+    "680134": {
+      "ticket": {
+        "id": 680134,
+        "summary": "iT360 365 backups (Cove)",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 0.47
+      },
+      "notes": [
+        {
+          "id": 669264,
+          "text": "# Completed the work. Documented everything. 9 billable users.\n# Configured so new user mailboxes/onedrive and sharepoint sites will automatically be added to the backup list\n\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/51987e99-7960-4bf4-9eaf-f7598117ef59)\n\n[Cove Backups - iT360 Support Account \\(ECBE@it360.co.nz\\) \u2014 IT Glue](https://it360.itglue.com/7426793/passwords/29306591)\n[Cove Backup Service Account \\(GA, 365\\) \u2014 IT Glue](https://it360.itglue.com/7426793/passwords/29306597)\n[N-Able / Cove Backup \u2014 IT Glue](https://it360.itglue.com/7426793/assets/484-backup/records/91629113)",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 669264,
+          "_info": {
+            "notes": "# Completed the work. Documented everything. 9 billable users.\n# Configured so new user mailboxes/onedrive and sharepoint sites will automatically be added to the backup list\n\n[image]\n\nCove Backups - iT360 Support Account (ECBE@it360.co.nz) \u2014 IT Glue\nCove Backup Service Account (GA, 365) \u2014 IT Glue\nN-Able / Cove Backup \u2014 IT Glue",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/669264"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:42.593276"
+    },
+    "680133": {
+      "ticket": {
+        "id": 680133,
+        "summary": "Huntress 365 MDR",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 0.17
+      },
+      "notes": [
+        {
+          "id": 667391,
+          "text": "# Configured ECBE 365 within Huntress 365 integrations successfully\n# Documented in ITG\n# Closing ticket.",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 667392,
+          "text": "Hi team. Huntress for 365 for East Coast Bays now configured, closing the ticket. ",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 667391,
+          "_info": {
+            "notes": "# Configured ECBE 365 within Huntress 365 integrations successfully\n# Documented in ITG\n# Closing ticket.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/667391"
+          }
+        },
+        {
+          "id": 667392,
+          "_info": {
+            "notes": "Hi team. Huntress for 365 for East Coast Bays now configured, closing the ticket. ",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/667392"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:42.742615"
+    },
+    "680068": {
+      "ticket": {
+        "id": 680068,
+        "summary": "Project Management & Administation",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4122,
+          "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 2.2
+      },
+      "notes": [
+        {
+          "id": 669318,
+          "text": "# Comms with Leonie, following up on the project\n# Reviewed the SOW\n# Prepared task list for review\n# Shared the sheet to Leonie",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 671007,
+          "text": "# Comms with Leonie, following up on the dates\n# Folder and permission sheet shared\n# Reviewed the tasks\n# The other tasks can be sent to the second level\n# Advised the same to Leonie",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 675741,
+          "text": "Meeting with Colin on estimated dates and tasks",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 676104,
+          "text": "Discussion with Leonie",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679337,
+          "text": "Review proposed dates and compare with completed  tasks. Comms with Colin on ticket due 07/02.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2603982,
+          "text": "Project Management & Administation",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 669318,
+          "_info": {
+            "notes": "# Comms with Leonie, following up on the project\n# Reviewed the SOW\n# Prepared task list for review\n# Shared the sheet to Leonie",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/669318"
+          }
+        },
+        {
+          "id": 671007,
+          "_info": {
+            "notes": "# Comms with Leonie, following up on the dates\n# Folder and permission sheet shared\n# Reviewed the tasks\n# The other tasks can be sent to the second level\n# Advised the same to Leonie",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/671007"
+          }
+        },
+        {
+          "id": 675741,
+          "_info": {
+            "notes": "Meeting with Colin on estimated dates and tasks",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/675741"
+          }
+        },
+        {
+          "id": 676104,
+          "_info": {
+            "notes": "Discussion with Leonie",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/676104"
+          }
+        },
+        {
+          "id": 679337,
+          "_info": {
+            "notes": "Review proposed dates and compare with completed  tasks. Comms with Colin on ticket due 07/02.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679337"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:42.900833"
+    }
+  },
+  "project_time_entries": [],
+  "members": [
+    {
+      "id": 251
+    }
+  ],
+  "collected_at": "2025-02-11T17:08:43.014958"
+}

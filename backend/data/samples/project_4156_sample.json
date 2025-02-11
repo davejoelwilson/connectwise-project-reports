@@ -1,0 +1,106 @@
+{
+  "project": {
+    "id": 4156,
+    "actualHours": 14.33,
+    "billingMethod": "ActualRates",
+    "company": {
+      "name": "The Service Company Limited"
+    },
+    "estimatedHours": 0.0,
+    "manager": {
+      "identifier": "LeonieV"
+    },
+    "name": "Quote S13087 - TSC - SharePoint Migration",
+    "status": {
+      "name": "4. Documentation (Engineer)"
+    }
+  },
+  "notes": [
+    {
+      "id": 1547,
+      "text": "Do not start until January when everyone is back"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 685588,
+      "summary": "Training",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4156,
+        "name": "Quote S13087 - TSC - SharePoint Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 4.0
+    },
+    {
+      "id": 685587,
+      "summary": "Migration from Azure to Sharepoint",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4156,
+        "name": "Quote S13087 - TSC - SharePoint Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 6.32
+    },
+    {
+      "id": 685586,
+      "summary": "Assessment and Design",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4156,
+        "name": "Quote S13087 - TSC - SharePoint Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 4.01
+    },
+    {
+      "id": 685584,
+      "summary": "Project Management",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4156,
+        "name": "Quote S13087 - TSC - SharePoint Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 685583,
+      "summary": "Labour - After Hours",
+      "status": {
+        "name": "Scheduling Required"
+      },
+      "project": {
+        "id": 4156,
+        "name": "Quote S13087 - TSC - SharePoint Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    }
+  ],
+  "time_entries": [],
+  "members": [
+    {
+      "id": 251
+    }
+  ],
+  "collected_at": "2025-02-11T07:57:14.611969"
+}

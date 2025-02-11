@@ -1,0 +1,222 @@
+{
+  "project": {
+    "id": 4122,
+    "actualHours": 25.89,
+    "billingMethod": "FixedFee",
+    "company": {
+      "name": "East Coast Bays Engineering (2015) Limited"
+    },
+    "estimatedHours": 0.0,
+    "manager": {
+      "identifier": "LeonieV"
+    },
+    "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration",
+    "scheduledStart": "2025-01-20T00:00:00Z",
+    "status": {
+      "name": "3. In Delivery"
+    }
+  },
+  "notes": [],
+  "tickets": [
+    {
+      "id": 683492,
+      "summary": "Internal Kick-off Meeting",
+      "status": {
+        "name": "Closed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.05
+    },
+    {
+      "id": 683117,
+      "summary": "Documentation",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.5
+    },
+    {
+      "id": 683109,
+      "summary": "Post Migration",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 683107,
+      "summary": "NAS and DB Migration ",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 4.5
+    },
+    {
+      "id": 683105,
+      "summary": "AD Decommissioning",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 683104,
+      "summary": "Migrating DNS & DHCP from server to Gateway device",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.25
+    },
+    {
+      "id": 683103,
+      "summary": "SharePoint Migration",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 6.75
+    },
+    {
+      "id": 683102,
+      "summary": "Decommission Scanner Licenses and Setup SMTP2GO",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.5
+    },
+    {
+      "id": 683101,
+      "summary": "Azure AD join and moving the user profile to OneDrive",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 7.0
+    },
+    {
+      "id": 683100,
+      "summary": "Requirements Analysis ",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.5
+    },
+    {
+      "id": 680134,
+      "summary": "iT360 365 backups (Cove)",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.47
+    },
+    {
+      "id": 680133,
+      "summary": "Huntress 365 MDR",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.17
+    },
+    {
+      "id": 680068,
+      "summary": "Project Management & Administation",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4122,
+        "name": "Quote S13122 - ECB - Server to MS365 Cloud Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 2.2
+    }
+  ],
+  "time_entries": [],
+  "members": [
+    {
+      "id": 251
+    }
+  ],
+  "collected_at": "2025-02-11T07:57:15.066944"
+}

@@ -5,7 +5,7 @@ import base64
 import logging
 import asyncio
 from datetime import datetime, timedelta
-from functools import lru_cache, partial
+from functools import lru_cache
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -68,6 +68,10 @@ class ConnectWiseClient:
         'project/name', 'assignedTo/identifier', 'dateEntered',
         'estimatedHours', 'actualHours'
     ]
+    NOTE_FIELDS = [
+        'id', 'text', 'detailDescriptionFlag', 'internalAnalysisFlag',
+        'resolutionFlag', 'dateCreated', 'createdBy'
+    ]
     
     def __init__(self):
         self.base_url = os.getenv('CONNECTWISE_URL', os.getenv('CW_BASE_URL'))
@@ -83,9 +87,17 @@ class ConnectWiseClient:
         if ConnectWiseClient._rate_limiter is None:
             ConnectWiseClient._rate_limiter = RateLimiter()
         
-        logger.debug(f"Initialized ConnectWise client with base URL: {self.base_url}")
-        logger.debug(f"Using Company: {self.company}")
-        logger.debug(f"Using Client ID: {self.client_id}")
+        # Generate auth token once
+        self._auth_token = self._generate_auth_token()
+        
+        # Create headers once
+        self._headers = {
+            'Authorization': self._auth_token,
+            'ClientID': self.client_id,
+            'Content-Type': 'application/json'
+        }
+        
+        logger.info(f"Initialized ConnectWise client for {self.company}")
 
     @property
     def http_client(self) -> httpx.AsyncClient:
@@ -103,34 +115,25 @@ class ConnectWiseClient:
         """Get the rate limiter instance"""
         return self._rate_limiter
 
-    @lru_cache(maxsize=1)
-    def _get_basic_auth(self) -> str:
-        """Generate Basic auth token for ConnectWise API (cached)"""
+    def _generate_auth_token(self) -> str:
+        """Generate Basic auth token for ConnectWise API"""
         credentials = f"{self.company}+{self.public_key}:{self.private_key}"
         encoded = base64.b64encode(credentials.encode()).decode()
         auth = f"Basic {encoded}"
-        logger.debug(f"Auth credentials (before encoding): {self.company}+{self.public_key}:****")
-        logger.debug(f"Auth header: Basic {encoded[:10]}...")
         return auth
-
-    @lru_cache(maxsize=1)
-    async def _get_headers(self) -> Dict[str, str]:
-        """Get request headers (cached)"""
-        return {
-            'Authorization': self._get_basic_auth(),
-            'ClientID': self.client_id,
-            'Content-Type': 'application/json'
-        }
 
     def _build_params(self, base_params: Optional[Dict[str, Any]] = None, **kwargs) -> Dict[str, Any]:
         """Build query parameters with defaults"""
         params = {
             'page': 1,
             'pageSize': 100,
-            'orderBy': kwargs.get('orderBy', 'name asc'),
             'fields': kwargs.get('fields', self.BASIC_FIELDS),
             **(base_params or {})
         }
+        
+        # Add orderBy if specified and not None
+        if 'orderBy' in kwargs and kwargs['orderBy'] is not None:
+            params['orderBy'] = kwargs['orderBy']
         
         # Clean params
         params = {k: v for k, v in params.items() if v is not None}
@@ -143,7 +146,6 @@ class ConnectWiseClient:
     async def get(self, endpoint: str, params: Optional[Dict[str, Any]] = None) -> Any:
         """Make a GET request to the ConnectWise API with rate limiting"""
         url = f"{self.base_url}/{endpoint}"
-        headers = await self._get_headers()
         
         logger.debug(f"Making request to: {url}")
         logger.debug(f"With params: {params}")
@@ -156,7 +158,7 @@ class ConnectWiseClient:
         
         while retry_count < max_retries:
             try:
-                response = await self.http_client.get(url, headers=headers, params=params)
+                response = await self.http_client.get(url, headers=self._headers, params=params)
                 
                 if response.status_code == 200:
                     return response.json()
@@ -197,13 +199,14 @@ class ConnectWiseClient:
 
     # Projects
     async def get_projects(self, params: Optional[Dict[str, Any]] = None, **kwargs) -> List[Dict[str, Any]]:
-        return await self._get_list('project/projects', params, fields=self.PROJECT_FIELDS, **kwargs)
+        return await self._get_list('project/projects', params, fields=self.PROJECT_FIELDS, orderBy='lastUpdated desc', **kwargs)
 
     async def get_project(self, project_id: int, params: Optional[Dict[str, Any]] = None, **kwargs) -> Dict[str, Any]:
-        return await self._get_item('project/projects', project_id, params, **kwargs)
+        return await self._get_item('project/projects', project_id, params, fields=self.PROJECT_FIELDS, **kwargs)
 
     async def get_project_notes(self, project_id: int, params: Optional[Dict[str, Any]] = None, **kwargs) -> List[Dict[str, Any]]:
-        return await self._get_list(f'project/projects/{project_id}/notes', params, orderBy='dateCreated desc', **kwargs)
+        """Get notes for a project"""
+        return await self._get_list(f'project/projects/{project_id}/notes', params, fields=self.NOTE_FIELDS, **kwargs)
 
     async def get_project_tickets(self, project_id: int, params: Optional[Dict[str, Any]] = None, **kwargs) -> List[Dict[str, Any]]:
         base_params = {'conditions': f"project/id={project_id}"}
@@ -212,7 +215,13 @@ class ConnectWiseClient:
         return await self._get_list('project/tickets', base_params, fields=self.TICKET_FIELDS, orderBy='dateEntered desc', **kwargs)
 
     # Time Entries
-    async def get_time_entries(self, params: Optional[Dict[str, Any]] = None, **kwargs) -> List[Dict[str, Any]]:
+    async def get_time_entries(self, params=None, **kwargs):
+        """Get time entries with optional filtering parameters."""
+        if params is None:
+            params = {}
+        if 'conditions' in params and 'chargeToType' in params['conditions']:
+            # Replace "Project" with ProjectTicket which is the correct enum value
+            params['conditions'] = params['conditions'].replace('chargeToType="Project"', 'chargeToType="ProjectTicket"')
         return await self._get_list('time/entries', params, fields=self.TIME_ENTRY_FIELDS, orderBy='timeStart desc', **kwargs)
 
     # Members
@@ -227,10 +236,10 @@ class ConnectWiseClient:
         return await self._get_list('project/tickets', params, fields=self.TICKET_FIELDS, orderBy='dateEntered desc', **kwargs)
 
     async def get_ticket(self, ticket_id: int, params: Optional[Dict[str, Any]] = None, **kwargs) -> Dict[str, Any]:
-        return await self._get_item('project/tickets', ticket_id, params, **kwargs)
+        return await self._get_item('project/tickets', ticket_id, params, fields=self.TICKET_FIELDS, **kwargs)
 
     async def get_ticket_notes(self, ticket_id: int, params: Optional[Dict[str, Any]] = None, **kwargs) -> List[Dict[str, Any]]:
-        return await self._get_list(f'project/tickets/{ticket_id}/allNotes', params, orderBy='dateCreated desc', **kwargs)
+        return await self._get_list(f'project/tickets/{ticket_id}/allNotes', params, fields=self.NOTE_FIELDS, **kwargs)
 
     async def get_ticket_time_entries(self, ticket_id: int, params: Optional[Dict[str, Any]] = None, **kwargs) -> List[Dict[str, Any]]:
         return await self._get_list(f'project/tickets/{ticket_id}/timeentries', params, fields=self.TIME_ENTRY_FIELDS, orderBy='timeStart desc', **kwargs)

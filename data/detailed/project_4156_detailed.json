@@ -1,0 +1,505 @@
+{
+  "project": {
+    "id": 4156,
+    "actualHours": 14.33,
+    "billingMethod": "ActualRates",
+    "company": {
+      "name": "The Service Company Limited"
+    },
+    "estimatedHours": 0.0,
+    "manager": {
+      "identifier": "LeonieV"
+    },
+    "name": "Quote S13087 - TSC - SharePoint Migration",
+    "status": {
+      "name": "4. Documentation (Engineer)"
+    }
+  },
+  "project_notes": [
+    {
+      "id": 1547,
+      "text": "Do not start until January when everyone is back"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 685588,
+      "summary": "Training",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4156,
+        "name": "Quote S13087 - TSC - SharePoint Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 4.0
+    },
+    {
+      "id": 685587,
+      "summary": "Migration from Azure to Sharepoint",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4156,
+        "name": "Quote S13087 - TSC - SharePoint Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 6.32
+    },
+    {
+      "id": 685586,
+      "summary": "Assessment and Design",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4156,
+        "name": "Quote S13087 - TSC - SharePoint Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 4.01
+    },
+    {
+      "id": 685584,
+      "summary": "Project Management",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4156,
+        "name": "Quote S13087 - TSC - SharePoint Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 685583,
+      "summary": "Labour - After Hours",
+      "status": {
+        "name": "Scheduling Required"
+      },
+      "project": {
+        "id": 4156,
+        "name": "Quote S13087 - TSC - SharePoint Migration"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    }
+  ],
+  "ticket_details": {
+    "685588": {
+      "ticket": {
+        "id": 685588,
+        "summary": "Training",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4156,
+          "name": "Quote S13087 - TSC - SharePoint Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 4.0
+      },
+      "notes": [
+        {
+          "id": 678111,
+          "text": "Tsc sharepoint guide",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679703,
+          "text": "TSC Sharepoint - chatting with Jon / Tatyana / Tim / Brandon",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679704,
+          "text": "Tsc Sharepoint work",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679706,
+          "text": "Sharepoint Tatyana quick links issue",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679707,
+          "text": "Tatyana / Yulia TSC Sharepoint issue with saving from infusion",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679708,
+          "text": "Tsc",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679709,
+          "text": "Tsc jia",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679710,
+          "text": "TSC Salma",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 678111,
+          "_info": {
+            "notes": "Tsc sharepoint guide",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/678111"
+          }
+        },
+        {
+          "id": 679703,
+          "_info": {
+            "notes": "TSC Sharepoint - chatting with Jon / Tatyana / Tim / Brandon",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679703"
+          }
+        },
+        {
+          "id": 679704,
+          "_info": {
+            "notes": "Tsc Sharepoint work",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679704"
+          }
+        },
+        {
+          "id": 679706,
+          "_info": {
+            "notes": "Sharepoint Tatyana quick links issue",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679706"
+          }
+        },
+        {
+          "id": 679707,
+          "_info": {
+            "notes": "Tatyana / Yulia TSC Sharepoint issue with saving from infusion",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679707"
+          }
+        },
+        {
+          "id": 679708,
+          "_info": {
+            "notes": "Tsc",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679708"
+          }
+        },
+        {
+          "id": 679709,
+          "_info": {
+            "notes": "Tsc jia",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679709"
+          }
+        },
+        {
+          "id": 679710,
+          "_info": {
+            "notes": "TSC Salma",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679710"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:27.555774"
+    },
+    "685587": {
+      "ticket": {
+        "id": 685587,
+        "summary": "Migration from Azure to Sharepoint",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4156,
+          "name": "Quote S13087 - TSC - SharePoint Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 6.32
+      },
+      "notes": [
+        {
+          "id": 676185,
+          "text": "TSC Sharepoint project work, creating sharepointtest2 user, assigning license, put in correct group, testing, not letting me login to AVD, troubleshooting",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 676258,
+          "text": "Troubleshooting why my test user isn't getting access to the AVD, might need to await a sync as the user isn't coming through to the remote access group - will check again tomorrow",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 676523,
+          "text": "Trying to resolve Sharepoint policy issues for TSC, no progress..",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 677313,
+          "text": "Looking at TSC file share mapping issue",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 677330,
+          "text": "TSC Sharepoint project work",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 677331,
+          "text": "TSC Sharepoint project work",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 677332,
+          "text": "Sharepoint tsc",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 676185,
+          "_info": {
+            "notes": "TSC Sharepoint project work, creating sharepointtest2 user, assigning license, put in correct group, testing, not letting me login to AVD, troubleshooting",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/676185"
+          }
+        },
+        {
+          "id": 676258,
+          "_info": {
+            "notes": "Troubleshooting why my test user isn't getting access to the AVD, might need to await a sync as the user isn't coming through to the remote access group - will check again tomorrow",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/676258"
+          }
+        },
+        {
+          "id": 676523,
+          "_info": {
+            "notes": "Trying to resolve Sharepoint policy issues for TSC, no progress..",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/676523"
+          }
+        },
+        {
+          "id": 677313,
+          "_info": {
+            "notes": "Looking at TSC file share mapping issue",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/677313"
+          }
+        },
+        {
+          "id": 677330,
+          "_info": {
+            "notes": "TSC Sharepoint project work",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/677330"
+          }
+        },
+        {
+          "id": 677331,
+          "_info": {
+            "notes": "TSC Sharepoint project work",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/677331"
+          }
+        },
+        {
+          "id": 677332,
+          "_info": {
+            "notes": "Sharepoint tsc",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/677332"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:27.673149"
+    },
+    "685586": {
+      "ticket": {
+        "id": 685586,
+        "summary": "Assessment and Design",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4156,
+          "name": "Quote S13087 - TSC - SharePoint Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 4.01
+      },
+      "notes": [
+        {
+          "id": 675532,
+          "text": "Sharepoint setting up work",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 675534,
+          "text": "TSC Sharepoint, trying to get intune policy working",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 675783,
+          "text": "Tested intune policies for onedrive sharepoint auto-mount\n\nfound it can take up to 8 hours for the policy to take effect ",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 675999,
+          "text": "Trial and error R&D for onedrive policies ",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 676001,
+          "text": "Change onedrive polices from user to device ",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 675532,
+          "_info": {
+            "notes": "Sharepoint setting up work",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/675532"
+          }
+        },
+        {
+          "id": 675534,
+          "_info": {
+            "notes": "TSC Sharepoint, trying to get intune policy working",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/675534"
+          }
+        },
+        {
+          "id": 675783,
+          "_info": {
+            "notes": "Tested intune policies for onedrive sharepoint auto-mount\n\nfound it can take up to 8 hours for the policy to take effect ",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/675783"
+          }
+        },
+        {
+          "id": 675999,
+          "_info": {
+            "notes": "Trial and error R&D for onedrive policies ",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/675999"
+          }
+        },
+        {
+          "id": 676001,
+          "_info": {
+            "notes": "Change onedrive polices from user to device ",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/676001"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:27.780234"
+    },
+    "685584": {
+      "ticket": {
+        "id": 685584,
+        "summary": "Project Management",
+        "status": {
+          "name": "In Progress Now"
+        },
+        "project": {
+          "id": 4156,
+          "name": "Quote S13087 - TSC - SharePoint Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:27.898847"
+    },
+    "685583": {
+      "ticket": {
+        "id": 685583,
+        "summary": "Labour - After Hours",
+        "status": {
+          "name": "Scheduling Required"
+        },
+        "project": {
+          "id": 4156,
+          "name": "Quote S13087 - TSC - SharePoint Migration"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2614259,
+          "text": "Labour - After Hours",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:28.027800"
+    }
+  },
+  "project_time_entries": [],
+  "members": [
+    {
+      "id": 251
+    }
+  ],
+  "collected_at": "2025-02-11T17:08:28.100998"
+}

@@ -1,0 +1,62 @@
+{
+  "project": {
+    "id": 4217,
+    "actualHours": 12.5,
+    "billingMethod": "ActualRates",
+    "company": {
+      "name": "Plastic Materials and Processes (New Zealand) Ltd"
+    },
+    "estimatedHours": 0.0,
+    "manager": {
+      "identifier": "LeonieV"
+    },
+    "name": "Quote S13287 - PMP - Security Risk - Firewall Upgrade Required",
+    "status": {
+      "name": "3. In Delivery"
+    }
+  },
+  "notes": [
+    {
+      "id": 1581,
+      "text": "Leonie Vortsman Tue 04/02/2025 13:07 UTC+13 SoW from the quote:\nHere is the quote for the FortiOS updates required on the firewalls. You can approve this and we will schedule this when you are ready.\n\n\n\nBackground\n\nFortiOS is the operating system that runs the Fortinet firewalls and there has been a security risk identified by the NZ Cyber Security organization CERTNZ. They recommend urgently upgrading any Firewalls with the older OS to the version that has addressed this risk. These updates are outside of support so we have prepared a quote below based on Bruce's preference for the install times.\n\nIssue: https://www.cert.govt.nz/advisories/vulnerability-affecting-fortios-and-fortiproxy/\n\nResolution: Update all four Fortinet Firewalls, We estimate 30 minutes per firewall and have quoted the estimate based on the time below.\n\nAlbany: After Hours - The Later the Better as Asia and Melbourne are hours behind and use this server\n\nMelbourne: Business Hours - will be able to be done during office hours, as can do at 8:30am \u2013 10:00am NZ time, before they start\n\nJohn Glenn \u2013 After Hours - Should be able to do by 8pm or 9pm next week as Vietnam and Thailand will be closed for Lunar New Year so won\u2019t be accessing the system\n\nCraig Epps - Business Hours - Check before proceeding as this is still to be confirmed\n\n   \n\n"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 700988,
+      "summary": "Labour (Business Hours - Melbourne and Craig) - Estimate 30 Minutes Per Firewall",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 4217,
+        "name": "Quote S13287 - PMP - Security Risk - Firewall Upgrade Required"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 700987,
+      "summary": "Labour (After Hours - Albany and John Glenn) - Estimate 30 Minutes Per Firewall",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4217,
+        "name": "Quote S13287 - PMP - Security Risk - Firewall Upgrade Required"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 12.5
+    }
+  ],
+  "time_entries": [],
+  "members": [
+    {
+      "id": 251
+    }
+  ],
+  "collected_at": "2025-02-11T07:57:14.445735"
+}

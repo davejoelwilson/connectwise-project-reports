@@ -1,0 +1,53 @@
+{
+  "project_id": 4156,
+  "project_name": "Quote S13087 - TSC - SharePoint Migration",
+  "status": "4. Documentation (Engineer)",
+  "manager": "LeonieV",
+  "company": "The Service Company Limited",
+  "estimated_hours": 0.0,
+  "actual_hours": 14.33,
+  "ticket_count": 5,
+  "active_tickets": 5,
+  "ticket_summaries": [
+    {
+      "id": 685588,
+      "summary": "Training",
+      "status": "In Progress Now",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 685587,
+      "summary": "Migration from Azure to Sharepoint",
+      "status": "In Progress Now",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 685586,
+      "summary": "Assessment and Design",
+      "status": "In Progress Now",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 685584,
+      "summary": "Project Management",
+      "status": "In Progress Now",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 685583,
+      "summary": "Labour - After Hours",
+      "status": "Scheduling Required",
+      "progress": 0,
+      "key_updates": 0
+    }
+  ],
+  "project_updates": [],
+  "team_members": [
+    "251"
+  ],
+  "analysis_date": "2025-02-11T17:08:28.104176"
+}

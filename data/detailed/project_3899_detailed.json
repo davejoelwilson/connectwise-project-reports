@@ -1,0 +1,2445 @@
+{
+  "project": {
+    "id": 3899,
+    "actualHours": 74.68,
+    "billingMethod": "ActualRates",
+    "company": {
+      "name": "iT360 Limited"
+    },
+    "estimatedHours": 0.0,
+    "manager": {
+      "identifier": "JamesR"
+    },
+    "name": "Cybersecurity Program",
+    "scheduledStart": "2024-11-12T00:00:00Z",
+    "status": {
+      "name": "3. In Delivery"
+    }
+  },
+  "project_notes": [],
+  "tickets": [
+    {
+      "id": 696603,
+      "summary": "365 Security Work",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 7.87
+    },
+    {
+      "id": 693000,
+      "summary": "Project Management",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.25
+    },
+    {
+      "id": 692999,
+      "summary": "Upgrade Replace or Decommission IT360RADIUS (Win16)",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.12
+    },
+    {
+      "id": 692998,
+      "summary": "Upgrade Replace or Decommission IT360MDM01 (Win16)",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 692997,
+      "summary": "Upgrade Replace or Decommission IT360PRTG (Win12R2)",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 692995,
+      "summary": "Upgrade Replace or Decommission IT360NCREP (Win12R2)",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.16
+    },
+    {
+      "id": 692991,
+      "summary": "Upgrade Replace or Decommission IT360DATA (Win08R2)",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 685992,
+      "summary": "Foundations",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 7.25
+    },
+    {
+      "id": 683084,
+      "summary": "Roadmap",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.0
+    },
+    {
+      "id": 680887,
+      "summary": "Roll Entra Connect Keys",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 680874,
+      "summary": "SPF, DKIM, and DMARC Review",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 8.25
+    },
+    {
+      "id": 679327,
+      "summary": "Enable Windows Firewall on iT360CW01, iT360DATA, iT360NCREP, iT360RADIUS, and iT360VEEAM01",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 679321,
+      "summary": "IG1 Assessment",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 5.75
+    },
+    {
+      "id": 678065,
+      "summary": "Add new mail-system alerts in Exchange Mailflow Alerts",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.5
+    },
+    {
+      "id": 677874,
+      "summary": "Enterprise Asset Policy Development",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.25
+    },
+    {
+      "id": 677211,
+      "summary": "Implement Businesss Premium Activation Asana Template on iT360 environment",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.75
+    },
+    {
+      "id": 676791,
+      "summary": "iTG Password Security",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.5
+    },
+    {
+      "id": 675372,
+      "summary": "Security Review 3CX solution design",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 672233,
+      "summary": "Implement PIM RAMP (Rapid Modernisation Plan) from Microsoft",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 671940,
+      "summary": "CJ - Create USB Drive Policy",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 2.25
+    },
+    {
+      "id": 671907,
+      "summary": "Implement SaaS Application Access Standard",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.16
+    },
+    {
+      "id": 668726,
+      "summary": "Configure SSO via Entra ID for Google Services",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 667520,
+      "summary": "Mature MFA and SSPR to Authentication Methods in Entra ID",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 5.02
+    },
+    {
+      "id": 667050,
+      "summary": "Acceptable Use Policy",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 7.25
+    },
+    {
+      "id": 664839,
+      "summary": "Create SaaS Application Access Standard",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 3.0
+    },
+    {
+      "id": 664087,
+      "summary": "Incident Response Policy and Plan",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 5.0
+    },
+    {
+      "id": 656673,
+      "summary": "Enable MFA on Apple Business Manager",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 656645,
+      "summary": "Create Businesss Premium Activation Asana Template",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 2.13
+    },
+    {
+      "id": 655112,
+      "summary": "Project Management",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 3.25
+    },
+    {
+      "id": 655107,
+      "summary": "Establish Password Change Regime for Infrastructure",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 653439,
+      "summary": "Enforce and monitor firewall status on workstations and networks",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 2.45
+    },
+    {
+      "id": 653433,
+      "summary": "Enable MFA on Kaseya Quote Manager",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 5.52
+    }
+  ],
+  "ticket_details": {
+    "696603": {
+      "ticket": {
+        "id": 696603,
+        "summary": "365 Security Work",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 7.87
+      },
+      "notes": [
+        {
+          "id": 676173,
+          "text": "Reviewing MFA status in IT360 Tenant",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 676174,
+          "text": "Internal security work, discussing hybrid joining with vic, assisting vic with radius issue",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 676176,
+          "text": "Email admin, Looking into hybrid joining for internal computers, looking into watchguard management server",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 676822,
+          "text": "Business Premium Activation internally, disabling some shared mailbox accounts and deleting some external users - need feedback from team before proceeding with other ones",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 677311,
+          "text": "Hybrid join work internally",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 677312,
+          "text": "Setting up sensitivity label for it360, setting up MDM GPO for it360",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679214,
+          "text": "it360 internal security work",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679715,
+          "text": "Templating Bus Premium",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679870,
+          "text": "- Discussion with Jono re internal BPA work\n - USB encryption stopping Immybot USBs from working\n  - Recommend implementing policy on all devices except Immybot deployment PC, which can be used to create non-encrypted USB drives ELSE\n  - Implement baseline with documented exception of encrypting USB drives",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 676173,
+          "_info": {
+            "notes": "Reviewing MFA status in IT360 Tenant",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/676173"
+          }
+        },
+        {
+          "id": 676174,
+          "_info": {
+            "notes": "Internal security work, discussing hybrid joining with vic, assisting vic with radius issue",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/676174"
+          }
+        },
+        {
+          "id": 676176,
+          "_info": {
+            "notes": "Email admin, Looking into hybrid joining for internal computers, looking into watchguard management server",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/676176"
+          }
+        },
+        {
+          "id": 676822,
+          "_info": {
+            "notes": "Business Premium Activation internally, disabling some shared mailbox accounts and deleting some external users - need feedback from team before proceeding with other ones",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/676822"
+          }
+        },
+        {
+          "id": 677311,
+          "_info": {
+            "notes": "Hybrid join work internally",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/677311"
+          }
+        },
+        {
+          "id": 677312,
+          "_info": {
+            "notes": "Setting up sensitivity label for it360, setting up MDM GPO for it360",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/677312"
+          }
+        },
+        {
+          "id": 679214,
+          "_info": {
+            "notes": "it360 internal security work",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679214"
+          }
+        },
+        {
+          "id": 679715,
+          "_info": {
+            "notes": "Templating Bus Premium",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679715"
+          }
+        },
+        {
+          "id": 679870,
+          "_info": {
+            "notes": "- Discussion with Jono re internal BPA work\n - USB encryption stopping Immybot USBs from working\n  - Recommend implementing policy on all devices except Immybot deployment PC, which can be used to create non-encrypted USB drives ELSE\n  - Implement baseline with documented exception of encrypting USB drives",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679870"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:06.288173"
+    },
+    "693000": {
+      "ticket": {
+        "id": 693000,
+        "summary": "Project Management",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 1.25
+      },
+      "notes": [
+        {
+          "id": 674627,
+          "text": "- Organise resourcing and kick off meeting",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 675007,
+          "text": "- Kick off meeting.\n- Plan each server path with engineers\n- Send confirmed plan to team\n- Assign tickets\n- Investigate NCREP. Chris and Si say it's not needed. Assign to Ryan.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 674627,
+          "_info": {
+            "notes": "- Organise resourcing and kick off meeting",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/674627"
+          }
+        },
+        {
+          "id": 675007,
+          "_info": {
+            "notes": "- Kick off meeting.\n- Plan each server path with engineers\n- Send confirmed plan to team\n- Assign tickets\n- Investigate NCREP. Chris and Si say it's not needed. Assign to Ryan.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/675007"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:06.402046"
+    },
+    "692999": {
+      "ticket": {
+        "id": 692999,
+        "summary": "Upgrade Replace or Decommission IT360RADIUS (Win16)",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 1.12
+      },
+      "notes": [
+        {
+          "id": 677847,
+          "text": "# Remoted in to IT360RADIUS via SC\n# Server observations\n1\\. Operating system is Windows Server 2016\n2\\. Domain joined to IT360\\.local\n3\\. Server roles installed\na. Network Policy and Access Services \\(NPS\\)\nb. DirectAccess and VPN \\(RAS\\)\nc. IIS\n4\\. NPS configured for the following clients\n\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/9117e6f9-3b22-4a7c-b777-d1f252c0455e)\n\n5\\. WatchGuard VPN integration\nSSL VPN - Active Directory\nIKE2 VPN - Radius\n6\\. No other applications installed\n# Recommendations: \n1\\. WIFI Radius issues when certificate is not in use for Windows 11 computers\\. ITG documentation is required to be created for the license renewal \\(same as the doc for ODH - https://it360\\.itglue\\.com/786165/docs/11839340\\)\n2\\. Need to discuss the type of Watchguard VPN to be used for IT360\\. If we are using both, it is required to have a Radius server\n3\\. Perform in-place upgrade of the OS",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679261,
+          "text": "- Review and comment to Ryan\n- Upgrade and optimisation recommendations for IT360RADIUS look good overall. A couple of questions:\n1. Do we know who actively uses each type of VPN?\n2. If not, is VPN use easily obtainable in WG logs or config, or do you want to reach out to the team?",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2629129,
+          "text": "- Runs authentication for iT360\n  - Wifi \n  - VPN\n- RYAN to investigate how else these services can be authenticated moving forward",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2629146,
+          "text": "Assigned / RyanMag / Hi Ryan,\n\nIf you need to log any time for replacing or upgrading the IT360RADIUS server you can put it against this ticket.\n\nNg\u0101 mihi\nJames",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 677847,
+          "_info": {
+            "notes": "# Remoted in to IT360RADIUS via SC\n# Server observations\n1. Operating system is Windows Server 2016\n2. Domain joined to IT360.local\n3. Server roles installed\na. Network Policy and Access Services (NPS)\nb. DirectAccess and VPN (RAS)\nc. IIS\n4. NPS configured for the following clients\n\n[image]\n\n5. WatchGuard VPN integration\nSSL VPN - Active Directory\nIKE2 VPN - Radius\n6. No other applications installed\n# Recommendations: \n1. WIFI Radius issues when certificate is not in use for Windows 11 computers. ITG documentation is required to be created for the license renewal (same as the doc for ODH - https://it360.itglue.com/786165/docs/11839340)\n2. Need to discuss the type of Watchguard VPN to be used for IT360. If we are using both, it is required to have a Radius server\n3. Perform in-place upgrade of the OS",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/677847"
+          }
+        },
+        {
+          "id": 679261,
+          "_info": {
+            "notes": "- Review and comment to Ryan\n- Upgrade and optimisation recommendations for IT360RADIUS look good overall. A couple of questions:\n1. Do we know who actively uses each type of VPN?\n2. If not, is VPN use easily obtainable in WG logs or config, or do you want to reach out to the team?",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679261"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:06.531949"
+    },
+    "692998": {
+      "ticket": {
+        "id": 692998,
+        "summary": "Upgrade Replace or Decommission IT360MDM01 (Win16)",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2629121,
+          "text": "- Sits on our DMZ to provide customers service \\(ManageEngine?\\)\n- Not sure how many customers using or how to find out\n- JONO to log onto server and find out what is running on it and make a recommendation for next steps",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2629145,
+          "text": "Assigned / JonathanK / Hi Jono,\n\nIf you need to log any time for decomming the IT360MDM01 server you can put it against this ticket.\n\nNg\u0101 mihi\nJames",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:06.648234"
+    },
+    "692997": {
+      "ticket": {
+        "id": 692997,
+        "summary": "Upgrade Replace or Decommission IT360PRTG (Win12R2)",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2629120,
+          "text": "- Zabbix in place to replace this\n- Dave will know whether PRTG is still in use at all\n- JAMES to follow up with Dave\n- RYAN or JONO to decom once details confirmed",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:06.748937"
+    },
+    "692995": {
+      "ticket": {
+        "id": 692995,
+        "summary": "Upgrade Replace or Decommission IT360NCREP (Win12R2)",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 1.16
+      },
+      "notes": [
+        {
+          "id": 675008,
+          "text": "Chris and Si both confirmed server is not needed.\nInvestigate what needs to be decommissioned and speak with Si if any concerns.\n- Remove from domain?\n- DHCP/DNS records?\n- Archive in iTG?\n- Anything else?",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 675274,
+          "text": "# Remoted in to IT360NCREP via SC\n# Server observations\n1\\. Domain joined to IT360\\.local\n2\\. SQL Server 2016 installed\n3\\. ReportServer SQL database is located under C:\\\\Program Files\\\\Microsoft SQL Server\\\\MSSQL13\\.MSSQLSERVER\\\\MSSQL\\\\DATA\n4\\. ReportManager data is located under D drive\n5\\. N-able Report Manager application is installed\n6\\. NC Report Manager Configuration\nServer FQDN/IP: 10.255.255.35\nODS Name: ods\\_manage\\_ds1\nLast Export Start: 9/2/2024 4:00:28 PM\nLast Export Completion: 9/2/2024 4:35:12 PM\nLast ETL Request: 9/2/2024 4:35:12 PM\nLast ETL Completion: 9/2/2024 6:11:50 PM\nLast ETL Status: Successful\nETL Running: No\nStatus: Active \n7\\. IIS installed and configured for NC Report Manager\n8\\. SMTP relay installed and configured but not in use\n# ITG entries to be archived:\n1\\. https://it360\\.itglue\\.com/19904/configurations/26385176\n2\\. https://it360\\.itglue\\.com/19904/configurations/66170614\n3\\. https://it360\\.itglue\\.com/19904/passwords/10420784\n4\\. https://it360\\.itglue\\.com/19904/passwords/10072471",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679260,
+          "text": "- Review and comment\n*  @Ryan, good analysis. Can you please now discuss IT360NCREP with Si and together make some recommendations as to how it is best decommed?",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2629116,
+          "text": "- NCentral Reporting server.\n- JAMES to confirm with Chris and/or Si.\n- RYAN or JONO ok to decom this server once details confirmed",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2629204,
+          "text": "Assigned / RyanMag / Hi Ryan,\n\nI've assigned this ticket to you. Please check this server to see what systems it needs to be removed from and speak with Si if you have any concerns.\n\n- Domain?\n- DHCP/DNS (if not auto removed by domain un-join)?\n- Archive in iTG?\n- Anything else?",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 675008,
+          "_info": {
+            "notes": "Chris and Si both confirmed server is not needed.\nInvestigate what needs to be decommissioned and speak with Si if any concerns.\n- Remove from domain?\n- DHCP/DNS records?\n- Archive in iTG?\n- Anything else?",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/675008"
+          }
+        },
+        {
+          "id": 675274,
+          "_info": {
+            "notes": "# Remoted in to IT360NCREP via SC\n# Server observations\n1. Domain joined to IT360.local\n2. SQL Server 2016 installed\n3. ReportServer SQL database is located under C:\\Program Files\\Microsoft SQL Server\\MSSQL13.MSSQLSERVER\\MSSQL\\DATA\n4. ReportManager data is located under D drive\n5. N-able Report Manager application is installed\n6. NC Report Manager Configuration\nServer FQDN/IP: 10.255.255.35\nODS Name: ods_manage_ds1\nLast Export Start: 9/2/2024 4:00:28 PM\nLast Export Completion: 9/2/2024 4:35:12 PM\nLast ETL Request: 9/2/2024 4:35:12 PM\nLast ETL Completion: 9/2/2024 6:11:50 PM\nLast ETL Status: Successful\nETL Running: No\nStatus: Active \n7. IIS installed and configured for NC Report Manager\n8. SMTP relay installed and configured but not in use\n# ITG entries to be archived:\n1. https://it360.itglue.com/19904/configurations/26385176\n2. https://it360.itglue.com/19904/configurations/66170614\n3. https://it360.itglue.com/19904/passwords/10420784\n4. https://it360.itglue.com/19904/passwords/10072471",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/675274"
+          }
+        },
+        {
+          "id": 679260,
+          "_info": {
+            "notes": "- Review and comment\n  @Ryan, good analysis. Can you please now discuss IT360NCREP with Si and together make some recommendations as to how it is best decommed?",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679260"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:06.852282"
+    },
+    "692991": {
+      "ticket": {
+        "id": 692991,
+        "summary": "Upgrade Replace or Decommission IT360DATA (Win08R2)",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2629103,
+          "text": "- Contains old files.\n- No value in moving files to new servers or SharePoint\n- Can be restored from backup if required.\n- Vic to liaise with Ruth re the data to confirm final plan and will manage the decom.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2629144,
+          "text": "Assigned / VicW / Hi Vic,\n\nIf you need to log any time for decomming the IT360DATA server you can put it against this ticket.\n\nNg\u0101 mihi\nJames",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:06.957290"
+    },
+    "685992": {
+      "ticket": {
+        "id": 685992,
+        "summary": "Foundations",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 7.25
+      },
+      "notes": [
+        {
+          "id": 671560,
+          "text": "- Reseach best starting point: Establish ISMS steering committee. Not required, but recommended.\n- Request copy of standard \\(~$300\\). Request Richele purchase. CC Dave for his info.\n- Further research with Copilot",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 678827,
+          "text": "- Define steering committee\n- Define scope and objectives",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 678906,
+          "text": "- ISMS presentations\n - [2. iT360 - ISO27001 ISMS Steering Committee.pptx](https://it360nz.sharepoint.com/:p:/r/sites/TechnicalCentreofExcellence/Shared%20Documents/Cyber%20Security/ISO27001/2.%20iT360%20-%20ISO27001%20ISMS%20Steering%20Committee.pptx?d=w686a890e95d94672afbcfc177b78eb54&csf=1&web=1&e=QjUv65)\n - [3. iT360 - ISO27001 ISMS Scope and Objectives.pptx](https://it360nz.sharepoint.com/:p:/r/sites/TechnicalCentreofExcellence/Shared%20Documents/Cyber%20Security/ISO27001/3.%20iT360%20-%20ISO27001%20ISMS%20Scope%20and%20Objectives.pptx?d=w81c5df402650463c958d3acba9897f62&csf=1&web=1&e=KcXDID)",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679252,
+          "text": "- Present ISO docs to Dave and confirm process for signing off policy\n - [2. iT360 - ISO27001 ISMS Steering Committee.pptx](https://it360nz.sharepoint.com/:p:/r/sites/TechnicalCentreofExcellence/Shared%20Documents/Cyber%20Security/ISO27001/2.%20iT360%20-%20ISO27001%20ISMS%20Steering%20Committee.pptx?d=w686a890e95d94672afbcfc177b78eb54&csf=1&web=1&e=ZpYwkT)\n - [3. iT360 - ISO27001 ISMS Scope and Objectives.pptx](https://it360nz.sharepoint.com/:p:/r/sites/TechnicalCentreofExcellence/Shared%20Documents/Cyber%20Security/ISO27001/3.%20iT360%20-%20ISO27001%20ISMS%20Scope%20and%20Objectives.pptx?d=w81c5df402650463c958d3acba9897f62&csf=1&web=1&e=ju8vZm)\n- Book recurring meeting for ISO work on Monday avos\n - Review preso for discussion next time\n- Provide to Dave for review. He will approve policy in iTG with date, so audit trail is maintained. \n- Continue review of ISO27001 standard and implementation guide",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 679869,
+          "text": "- Meeting with Dave\n- Create Asana project\n - Add tasks from ISO standard\n - Find reference for establishing the external and internal context of the organization considered in Clause 5.4.1 of ISO 31000:2018 \\( [ISO 31000:2018 Clause 5.4 Design](https://preteshbiswas.com/2023/12/31/iso-310002018-clause-5-4-design/)\\)",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 671560,
+          "_info": {
+            "notes": "- Reseach best starting point: Establish ISMS steering committee. Not required, but recommended.\n- Request copy of standard (~$300). Request Richele purchase. CC Dave for his info.\n- Further research with Copilot",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/671560"
+          }
+        },
+        {
+          "id": 678827,
+          "_info": {
+            "notes": "- Define steering committee\n- Define scope and objectives",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/678827"
+          }
+        },
+        {
+          "id": 678906,
+          "_info": {
+            "notes": "- ISMS presentations\n - 2. iT360 - ISO27001 ISMS Steering Committee.pptx\n - 3. iT360 - ISO27001 ISMS Scope and Objectives.pptx",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/678906"
+          }
+        },
+        {
+          "id": 679252,
+          "_info": {
+            "notes": "- Present ISO docs to Dave and confirm process for signing off policy\n - 2. iT360 - ISO27001 ISMS Steering Committee.pptx\n - 3. iT360 - ISO27001 ISMS Scope and Objectives.pptx\n- Book recurring meeting for ISO work on Monday avos\n - Review preso for discussion next time\n- Provide to Dave for review. He will approve policy in iTG with date, so audit trail is maintained. \n- Continue review of ISO27001 standard and implementation guide",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679252"
+          }
+        },
+        {
+          "id": 679869,
+          "_info": {
+            "notes": "- Meeting with Dave\n- Create Asana project\n - Add tasks from ISO standard\n - Find reference for establishing the external and internal context of the organization considered in Clause 5.4.1 of ISO 31000:2018 ( ISO 31000:2018 Clause 5.4 Design)",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/679869"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:07.090037"
+    },
+    "683084": {
+      "ticket": {
+        "id": 683084,
+        "summary": "Roadmap",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 1.0
+      },
+      "notes": [
+        {
+          "id": 669721,
+          "text": "- Review Claude outputs. Insert into presentation for SLT. Refine.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 669721,
+          "_info": {
+            "notes": "- Review Claude outputs. Insert into presentation for SLT. Refine.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/669721"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:07.210266"
+    },
+    "680887": {
+      "ticket": {
+        "id": 680887,
+        "summary": "Roll Entra Connect Keys",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2605339,
+          "text": "Roll Entra Connect keys per https://learn.microsoft.com/en-nz/entra/identity/hybrid/connect/how-to-connect-sso-faq#how-can-i-roll-over-the-kerberos-decryption-key-of-the--azureadsso--computer-account-\n\nIf easy to automate, do so. ",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:07.340299"
+    },
+    "680874": {
+      "ticket": {
+        "id": 680874,
+        "summary": "SPF, DKIM, and DMARC Review",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 8.25
+      },
+      "notes": [
+        {
+          "id": 667899,
+          "text": "- Review current setup\n- Need to identify and document every SPF inclusion:\nv=spf1 ip4:124.157.106.124/30 ip4:123.100.101.112/28 ip4:123.100.121.224/28 ip4:124.157.103.80/28 include:spf.protection.outlook.com include:emsd1.com include:spf.exclaimer.net include:transmail.net include:zcsend.net include:amazonses.com ~all\n- Then review M365 domains:\n",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 671087,
+          "text": "- Review current SPF, DKIM, and DMARC config\n- Valimail checks out.\n- Recommend reducing SPF IPs if we can. Further investigation required around which external IPs are actually used for mail sending\n- Recommend upgrading DMARC policy\nFROM\n* v=DMARC1;p=none; rua=mailto:dmarc\\_agg@vali.email\nTO\n* v=DMARC1;p=quarantine; rua=mailto:dmarc\\_agg@vali.email",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 671825,
+          "text": "- Domain validation/Valimail research, requests",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 671827,
+          "text": "- Valimail/DMARC research and plan",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 667899,
+          "_info": {
+            "notes": "- Review current setup\n- Need to identify and document every SPF inclusion:\nv=spf1 ip4:124.157.106.124/30 ip4:123.100.101.112/28 ip4:123.100.121.224/28 ip4:124.157.103.80/28 include:spf.protection.outlook.com include:emsd1.com include:spf.exclaimer.net include:transmail.net include:zcsend.net include:amazonses.com ~all\n- Then review M365 domains:\n",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/667899"
+          }
+        },
+        {
+          "id": 671087,
+          "_info": {
+            "notes": "- Review current SPF, DKIM, and DMARC config\n- Valimail checks out.\n- Recommend reducing SPF IPs if we can. Further investigation required around which external IPs are actually used for mail sending\n- Recommend upgrading DMARC policy\nFROM\n v=DMARC1;p=none; rua=mailto:dmarc_agg@vali.email\nTO\n v=DMARC1;p=quarantine; rua=mailto:dmarc_agg@vali.email",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/671087"
+          }
+        },
+        {
+          "id": 671825,
+          "_info": {
+            "notes": "- Domain validation/Valimail research, requests",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/671825"
+          }
+        },
+        {
+          "id": 671827,
+          "_info": {
+            "notes": "- Valimail/DMARC research and plan",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/671827"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:07.449402"
+    },
+    "679327": {
+      "ticket": {
+        "id": 679327,
+        "summary": "Enable Windows Firewall on iT360CW01, iT360DATA, iT360NCREP, iT360RADIUS, and iT360VEEAM01",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2602548,
+          "text": "Confirm comms requirements for each server and enable FW under normal Change Management.\nThis can be separated out into separate tickets for each server if preferred.\nIn scope servers are iT360CW01, iT360DATA, iT360NCREP, iT360RADIUS, and iT360VEEAM01",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:07.570504"
+    },
+    "679321": {
+      "ticket": {
+        "id": 679321,
+        "summary": "IG1 Assessment",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 5.75
+      },
+      "notes": [
+        {
+          "id": 666673,
+          "text": "- IG1 Assessment",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 669314,
+          "text": "- Assessment",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 669437,
+          "text": "- Progress assessment",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 669562,
+          "text": "- Complete assessment. Review and send results to DW.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 669760,
+          "text": "- Improve report usability with tags on controls 1-5.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 666673,
+          "_info": {
+            "notes": "- IG1 Assessment",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/666673"
+          }
+        },
+        {
+          "id": 669314,
+          "_info": {
+            "notes": "- Assessment",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/669314"
+          }
+        },
+        {
+          "id": 669437,
+          "_info": {
+            "notes": "- Progress assessment",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/669437"
+          }
+        },
+        {
+          "id": 669562,
+          "_info": {
+            "notes": "- Complete assessment. Review and send results to DW.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/669562"
+          }
+        },
+        {
+          "id": 669760,
+          "_info": {
+            "notes": "- Improve report usability with tags on controls 1-5.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/669760"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:07.677858"
+    },
+    "678065": {
+      "ticket": {
+        "id": 678065,
+        "summary": "Add new mail-system alerts in Exchange Mailflow Alerts",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 0.5
+      },
+      "notes": [
+        {
+          "id": 665551,
+          "text": "- Research and create alerts and disable\n- Raise CR",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 665551,
+          "_info": {
+            "notes": "- Research and create alerts and disable\n- Raise CR",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/665551"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:07.825238"
+    },
+    "677874": {
+      "ticket": {
+        "id": 677874,
+        "summary": "Enterprise Asset Policy Development",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 1.25
+      },
+      "notes": [
+        {
+          "id": 665339,
+          "text": "- Review CIS Enterprise Asset Management Policy template",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 670051,
+          "text": "- Review configurations list. \n- Attempt to get useful info from Ninja<>iTG integration - specifically re IP address",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 665339,
+          "_info": {
+            "notes": "- Review CIS Enterprise Asset Management Policy template",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/665339"
+          }
+        },
+        {
+          "id": 670051,
+          "_info": {
+            "notes": "- Review configurations list. \n- Attempt to get useful info from Ninja<>iTG integration - specifically re IP address",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/670051"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:07.942740"
+    },
+    "677211": {
+      "ticket": {
+        "id": 677211,
+        "summary": "Implement Businesss Premium Activation Asana Template on iT360 environment",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 1.75
+      },
+      "notes": [
+        {
+          "id": 664910,
+          "text": "- Resource/priority discussion for this work",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 671822,
+          "text": "- Meeting with Jono. Discussing plan around DMARC.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 676560,
+          "text": "- Meeting with Jono re\n - DMARC value\n - Education re SPF protecting envelope-from header entry, while DMARC protects mail From header entry\n- Watchguard desired config vs possible config\n - Provided WG doco for Jono review",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 664910,
+          "_info": {
+            "notes": "- Resource/priority discussion for this work",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/664910"
+          }
+        },
+        {
+          "id": 671822,
+          "_info": {
+            "notes": "- Meeting with Jono. Discussing plan around DMARC.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/671822"
+          }
+        },
+        {
+          "id": 676560,
+          "_info": {
+            "notes": "- Meeting with Jono re\n - DMARC value\n - Education re SPF protecting envelope-from header entry, while DMARC protects mail From header entry\n- Watchguard desired config vs possible config\n - Provided WG doco for Jono review",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/676560"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:08.048046"
+    },
+    "676791": {
+      "ticket": {
+        "id": 676791,
+        "summary": "iTG Password Security",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 0.5
+      },
+      "notes": [
+        {
+          "id": 664473,
+          "text": "- Investigate why Bradley, Callum, and Chris can access all passwords.\n- Found Bradley has admin access.\n- Review with Vic\n- Request Cal remove Bradley.\n- Confirm completed.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2597723,
+          "text": "Bradley (Bless him) having all access to \"Restricted\" passwords folder in ITGlue..  This is not really required for him - so can we please take away his access to this restricted folder..  and as discussed Callum probably doesn't need access to this folder either..?  ..\nRestricted. Sitting between \"Pia\" and \"TEST360 Environment\"\n\nChris has full access to all these restricted passwords as well? - That's not required either for his role. Can you remove him also please?  I believe he has more than sufficient access via his own admin access.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 664473,
+          "_info": {
+            "notes": "- Investigate why Bradley, Callum, and Chris can access all passwords.\n- Found Bradley has admin access.\n- Review with Vic\n- Request Cal remove Bradley.\n- Confirm completed.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/664473"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:08.183596"
+    },
+    "675372": {
+      "ticket": {
+        "id": 675372,
+        "summary": "Security Review 3CX solution design",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:08.284794"
+    },
+    "672233": {
+      "ticket": {
+        "id": 672233,
+        "summary": "Implement PIM RAMP (Rapid Modernisation Plan) from Microsoft",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [
+        {
+          "id": 2589160,
+          "text": "https://learn.microsoft.com/en-us/security/privileged-access-workstations/security-rapid-modernization-plan",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:08.392522"
+    },
+    "671940": {
+      "ticket": {
+        "id": 671940,
+        "summary": "CJ - Create USB Drive Policy",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 2.25
+      },
+      "notes": [
+        {
+          "id": 661034,
+          "text": "- Discuss USB security concerns and potential policy\n- Research industry \\(and LLM :-D \\) guidance\n- Create [Documents - USB Drive Security Policy \\(itglue.com\\)](https://it360.itglue.com/19904/docs/17512164#documentMode=edit&version=published) and submit to CJ for review",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 661034,
+          "_info": {
+            "notes": "- Discuss USB security concerns and potential policy\n- Research industry (and LLM :-D ) guidance\n- Create Documents - USB Drive Security Policy (itglue.com) and submit to CJ for review",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/661034"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:08.489470"
+    },
+    "671907": {
+      "ticket": {
+        "id": 671907,
+        "summary": "Implement SaaS Application Access Standard",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 1.16
+      },
+      "notes": [
+        {
+          "id": 660964,
+          "text": "- Implement standard on Mosyle\n- Test jrappadmin@it360.co.nz. SSO not working",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 670822,
+          "text": "- Discuss, advise, and confirm Mosyle config with CJ and BF\n- mosyle.ea@it360.co.nz shared mailbox to be used",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 670824,
+          "text": "Setup EA Account in Mosyle",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 670828,
+          "text": "# Convo with James\n# Convo with Bradley\n# Convo with both\n# Set up Mosyle EA account. Set password to something very very strong. Blocked sign-in.  https://it360.itglue.com/19904/passwords/29176923 - accessible to a select few.",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 660964,
+          "_info": {
+            "notes": "- Implement standard on Mosyle\n- Test jrappadmin@it360.co.nz. SSO not working",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/660964"
+          }
+        },
+        {
+          "id": 670822,
+          "_info": {
+            "notes": "- Discuss, advise, and confirm Mosyle config with CJ and BF\n- mosyle.ea@it360.co.nz shared mailbox to be used",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/670822"
+          }
+        },
+        {
+          "id": 670824,
+          "_info": {
+            "notes": "Setup EA Account in Mosyle",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/670824"
+          }
+        },
+        {
+          "id": 670828,
+          "_info": {
+            "notes": "# Convo with James\n# Convo with Bradley\n# Convo with both\n# Set up Mosyle EA account. Set password to something very very strong. Blocked sign-in.  https://it360.itglue.com/19904/passwords/29176923 - accessible to a select few.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/670828"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:08.599856"
+    },
+    "668726": {
+      "ticket": {
+        "id": 668726,
+        "summary": "Configure SSO via Entra ID for Google Services",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:08.726893"
+    },
+    "667520": {
+      "ticket": {
+        "id": 667520,
+        "summary": "Mature MFA and SSPR to Authentication Methods in Entra ID",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 5.02
+      },
+      "notes": [
+        {
+          "id": 665332,
+          "text": "Hey James,\n\nCould you please clarify what you need from me on this one? \n\nI believe Microsoft Auth is already the primary, but is it enforcement of this being the only/primary method without any other option? If so, may need you to supply the documentation for that.\n\nSSPR, I can set this up, but can you explain what the requirement is - aka the \"not for login\" bit\n\nThanks!",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 667545,
+          "text": "Research auth methods and current MFA and SSPR config.\n\nLogging the following CR:\nEnable Authentication Methods in Entra in preparation for move away from legacy MFA and SSPR management portals.\nIn Entra ID under Identity | Protection | Authentication Methods\n- Passkey \\(FIDO2\\) settings\n - ENABLE with defaults\n- Microsoft Authenticator\n - ENABLE\n  - Use defaults in Enable and Target tab\n  - Under Configure tab\n   - ENABLE '**Show application name**'\n   - ENABLE '**Show geographic location'**\n   - DISABLE '**Microsoft Authenticator on companion apps**' \n- Temporary Access Pass\n - ENABLE with defaults\n- Hardware OATH tokens\n - ENABLE with defaults\n- Third-party software OATH tokens\n - ENABLE with defaults\n",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 667576,
+          "text": "- Prep comms for users and TCoE.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 670489,
+          "text": "- Enabled the following:\n\nIn Entra ID under Identity | Protection | Authentication Methods\n* Passkey \\(FIDO2\\) settings\n* ENABLE with defaults\n* Microsoft Authenticator\n* ENABLE\n* Use defaults in Enable and Target tab\n* Under Configure tab\n* ENABLE 'Show application name'\n* ENABLE 'Show geographic location'\n* DISABLE 'Microsoft Authenticator on companion apps'\n* Temporary Access Pass\n* ENABLE with defaults\n* Hardware OATH tokens\n* ENABLE with defaults\n* Third-party software OATH tokens\n* ENABLE with defaults\nInform users of upcoming Microsoft Authenticator registration campaign. Plan deployment. Consider \"System-preferred multifactor authentication\" and \"Report suspicious activity\" options. ",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 672041,
+          "text": "- Raise CR and email staff re MFA registration campaign\n- Research passwordless login options",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2583896,
+          "text": "* Update M365 Authentication Methods to enable MFA Authenticator app for primary auth method.\n* Enable SMS for SSPR \\(but NOT for login\\) as long as an additional factor is required for SSPR.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2601608,
+          "text": "Assigned / JamesR / ",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 665332,
+          "_info": {
+            "notes": "Hey James,\n\nCould you please clarify what you need from me on this one? \n\nI believe Microsoft Auth is already the primary, but is it enforcement of this being the only/primary method without any other option? If so, may need you to supply the documentation for that.\n\nSSPR, I can set this up, but can you explain what the requirement is - aka the \"not for login\" bit\n\nThanks!",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/665332"
+          }
+        },
+        {
+          "id": 667545,
+          "_info": {
+            "notes": "Research auth methods and current MFA and SSPR config.\n\nLogging the following CR:\nEnable Authentication Methods in Entra in preparation for move away from legacy MFA and SSPR management portals.\nIn Entra ID under Identity | Protection | Authentication Methods\n- Passkey (FIDO2) settings\n - ENABLE with defaults\n- Microsoft Authenticator\n - ENABLE\n  - Use defaults in Enable and Target tab\n  - Under Configure tab\n   - ENABLE 'Show application name'\n   - ENABLE 'Show geographic location'\n   - DISABLE 'Microsoft Authenticator on companion apps' \n- Temporary Access Pass\n - ENABLE with defaults\n- Hardware OATH tokens\n - ENABLE with defaults\n- Third-party software OATH tokens\n - ENABLE with defaults\n",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/667545"
+          }
+        },
+        {
+          "id": 667576,
+          "_info": {
+            "notes": "- Prep comms for users and TCoE.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/667576"
+          }
+        },
+        {
+          "id": 670489,
+          "_info": {
+            "notes": "- Enabled the following:\n\nIn Entra ID under Identity | Protection | Authentication Methods\n Passkey (FIDO2) settings\n ENABLE with defaults\n Microsoft Authenticator\n ENABLE\n Use defaults in Enable and Target tab\n Under Configure tab\n ENABLE 'Show application name'\n ENABLE 'Show geographic location'\n DISABLE 'Microsoft Authenticator on companion apps'\n Temporary Access Pass\n ENABLE with defaults\n Hardware OATH tokens\n ENABLE with defaults\n Third-party software OATH tokens\n ENABLE with defaults\nInform users of upcoming Microsoft Authenticator registration campaign. Plan deployment. Consider \"System-preferred multifactor authentication\" and \"Report suspicious activity\" options. ",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/670489"
+          }
+        },
+        {
+          "id": 672041,
+          "_info": {
+            "notes": "- Raise CR and email staff re MFA registration campaign\n- Research passwordless login options",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/672041"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:08.846527"
+    },
+    "667050": {
+      "ticket": {
+        "id": 667050,
+        "summary": "Acceptable Use Policy",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 7.25
+      },
+      "notes": [
+        {
+          "id": 657638,
+          "text": "- Initial policy creation from template and review",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 665340,
+          "text": "- Review iT360's acceptable use components in Employment contract",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 672039,
+          "text": "- Review CIS template",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 674398,
+          "text": "- Compare iT360 policy with CIS recommendations\n- Identify gaps\n- Create presentation for SLT",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 675069,
+          "text": "- finish presentation of recommended policies for SLT ",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 657638,
+          "_info": {
+            "notes": "- Initial policy creation from template and review",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/657638"
+          }
+        },
+        {
+          "id": 665340,
+          "_info": {
+            "notes": "- Review iT360's acceptable use components in Employment contract",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/665340"
+          }
+        },
+        {
+          "id": 672039,
+          "_info": {
+            "notes": "- Review CIS template",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/672039"
+          }
+        },
+        {
+          "id": 674398,
+          "_info": {
+            "notes": "- Compare iT360 policy with CIS recommendations\n- Identify gaps\n- Create presentation for SLT",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/674398"
+          }
+        },
+        {
+          "id": 675069,
+          "_info": {
+            "notes": "- finish presentation of recommended policies for SLT ",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/675069"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:08.980873"
+    },
+    "664839": {
+      "ticket": {
+        "id": 664839,
+        "summary": "Create SaaS Application Access Standard",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 3.0
+      },
+      "notes": [
+        {
+          "id": 655872,
+          "text": "- Review iTG config for the purpose of creating and restricting access to Emergency passwords. Need to remove junior staff from Manager Role and Management group.\n- Emergency@it360.co.nz",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 657932,
+          "text": "- Update Access Control Standard for SaaS Applications",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 660951,
+          "text": "- Review and finalise standard with Chris",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 655872,
+          "_info": {
+            "notes": "- Review iTG config for the purpose of creating and restricting access to Emergency passwords. Need to remove junior staff from Manager Role and Management group.\n- Emergency@it360.co.nz",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/655872"
+          }
+        },
+        {
+          "id": 657932,
+          "_info": {
+            "notes": "- Update Access Control Standard for SaaS Applications",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/657932"
+          }
+        },
+        {
+          "id": 660951,
+          "_info": {
+            "notes": "- Review and finalise standard with Chris",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/660951"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:09.084777"
+    },
+    "664087": {
+      "ticket": {
+        "id": 664087,
+        "summary": "Incident Response Policy and Plan",
+        "status": {
+          "name": "In Progress"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 5.0
+      },
+      "notes": [
+        {
+          "id": 657570,
+          "text": "- Review old/existing processes",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 657634,
+          "text": "- Policy development",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 657636,
+          "text": "- IR Policy finalisation for SLT review",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 658724,
+          "text": "- Review IR policy sign off process and industry recommendations\n- Comms re IR Policy with Callum and Richele to set up review meeting.\n- Update IR Plan with CyberCX escalation details.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 661310,
+          "text": "- Meeting with Watchpoint and CyberCX to understand what services are available under existing cyber liability policy",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 663056,
+          "text": "- Prep and presentation to SLT",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 657570,
+          "_info": {
+            "notes": "- Review old/existing processes",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/657570"
+          }
+        },
+        {
+          "id": 657634,
+          "_info": {
+            "notes": "- Policy development",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/657634"
+          }
+        },
+        {
+          "id": 657636,
+          "_info": {
+            "notes": "- IR Policy finalisation for SLT review",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/657636"
+          }
+        },
+        {
+          "id": 658724,
+          "_info": {
+            "notes": "- Review IR policy sign off process and industry recommendations\n- Comms re IR Policy with Callum and Richele to set up review meeting.\n- Update IR Plan with CyberCX escalation details.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/658724"
+          }
+        },
+        {
+          "id": 661310,
+          "_info": {
+            "notes": "- Meeting with Watchpoint and CyberCX to understand what services are available under existing cyber liability policy",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/661310"
+          }
+        },
+        {
+          "id": 663056,
+          "_info": {
+            "notes": "- Prep and presentation to SLT",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/663056"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:09.212483"
+    },
+    "656673": {
+      "ticket": {
+        "id": 656673,
+        "summary": "Enable MFA on Apple Business Manager",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:09.325371"
+    },
+    "656645": {
+      "ticket": {
+        "id": 656645,
+        "summary": "Create Businesss Premium Activation Asana Template",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 2.13
+      },
+      "notes": [
+        {
+          "id": 652408,
+          "text": "- Meeting with Jono to discuss/improve template",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 652586,
+          "text": "365 Adoption",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2559290,
+          "text": "Assigned / JonathanK / ",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 652408,
+          "_info": {
+            "notes": "- Meeting with Jono to discuss/improve template",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/652408"
+          }
+        },
+        {
+          "id": 652586,
+          "_info": {
+            "notes": "365 Adoption",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/652586"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:09.430976"
+    },
+    "655112": {
+      "ticket": {
+        "id": 655112,
+        "summary": "Project Management",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 3.25
+      },
+      "notes": [
+        {
+          "id": 650737,
+          "text": "- Project planning\n- Provide info to Jono\n- Meeting with Vic to communicate cyber plan, discuss insurance requirements\n- Communicate with SLT about policy locations\n- Policy storage discussions",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 651945,
+          "text": "- Setup and assign BP Activation template ticket",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 650737,
+          "_info": {
+            "notes": "- Project planning\n- Provide info to Jono\n- Meeting with Vic to communicate cyber plan, discuss insurance requirements\n- Communicate with SLT about policy locations\n- Policy storage discussions",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/650737"
+          }
+        },
+        {
+          "id": 651945,
+          "_info": {
+            "notes": "- Setup and assign BP Activation template ticket",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/651945"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:09.551203"
+    },
+    "655107": {
+      "ticket": {
+        "id": 655107,
+        "summary": "Establish Password Change Regime for Infrastructure",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        }
+      },
+      "notes": [],
+      "time_entries": [],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:09.667243"
+    },
+    "653439": {
+      "ticket": {
+        "id": 653439,
+        "summary": "Enforce and monitor firewall status on workstations and networks",
+        "status": {
+          "name": "New"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 2.45
+      },
+      "notes": [
+        {
+          "id": 650985,
+          "text": "After some reading, seems like the best way to handle this is via group policy and/or intune. Couldn't see an easy way to track this via Ninja but perhaps Si or Chris have some ideas so I could pull them in\n\nHave a couple of questions though\n\n1\\. Does this include servers, if so, will need to get Vic involved to confirm this is fine to force\n2\\. When you say \"Monitor Firewall Status\" is this just monitoring \"On vs off\" or is there anything else that needs to be monitored\n\nThanks",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 659183,
+          "text": "- Meeting with JK to determine current status of FW config and monitoring\n\nProposed Windows Firewall monitoring/enforcement plan:\n\u00a0\n**Servers**\n* Monitor all - and alert if OFF\n* Do not enforce\n**Workstations**\n* Monitor all - and alert if OFF\n* Enforce on all workstations\n* Create exception group for engineer workstations \\(devices must be explicitly added to this group to enable Firewall to be locally managed\\)",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 665331,
+          "text": "Hey James, I know you were planning on pushing a change control through to get the group policy enforced. Did you want me to create one or will you need to draft the plan?",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 675548,
+          "text": "Working on Microsoft Defender for endpoint set-up",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 675557,
+          "text": "Setting up defender and compliance policies for IT360 - next step is to set up hybrid join so devices can be managed in the cloud",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2556301,
+          "text": "Hi Jono,\n\nGreat questions.\n\n1. Cool. GPO/Intune make the most sense. Would be worth asking Si only for the scenario where a device might not be connected to either AD or Entra.\n2. Servers \u2013 Yes, but rather than thinking of it as \u2018forcing\u2019, I would use the perspective of \u2018centrally managing\u2019. That is rather than setting policies on the server itself, it is deployed and updated via GPO. Primarily the ON/OFF config\u2026but if Vic wanted to, we could even get down to the individual policy level\u2026however my thoughts are that might be too labour intensive.\n3. ON / OFF monitoring is fine for now.\n\nNg\u0101 mihi\n\nJames\u00a0Robinson\nSenior\u00a0Cyber\u00a0Security\u00a0Consultant\n[Book\u00a0a\u00a0meeting\u00a0with\u00a0me\u00a0here.](https://calendly.com/james-robinson-it360/)\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/c7f31b6b-7d36-4c2e-a52a-3082933bc70b)\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/a8f3bfeb-c518-4897-8436-23b7b56d81c4)+64\u00a021\u00a0751\u00a0345\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/3f99be7a-d71f-43d3-90b4-89bc1466dbb8)it360.co.nz/taranaki\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/322dbeea-74b4-4356-bf89-9139985e303f)194\u00a0Courtenay\u00a0Street\n,\nNew\u00a0Plymouth\n\n4312\n[![\\[LinkedIn\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/4aead5e4-2380-4956-b13d-63717b36e224 \"LinkedIn\")](https://www.linkedin.com/company/it360.nz)\n[![\\[Facebook\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/26955880-498c-4113-a90b-cfc33b691d4d \"Facebook\")](https://www.facebook.com/iT360Limited/)\nThe\u00a0contents\u00a0of\u00a0this\u00a0message\u00a0and\u00a0all\u00a0attachments\u00a0have\u00a0been\u00a0sent\u00a0in\u00a0confidence\u00a0for\u00a0the\u00a0attention\u00a0of\u00a0the\u00a0addressee\u00a0only\n",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2601604,
+          "text": "Assigned / JamesR / ",
+          "detailDescriptionFlag": false,
+          "internalAnalysisFlag": true,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2602545,
+          "text": "Hi Jono,\n\nHappy for you to do this, when you're back.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 650985,
+          "_info": {
+            "notes": "After some reading, seems like the best way to handle this is via group policy and/or intune. Couldn't see an easy way to track this via Ninja but perhaps Si or Chris have some ideas so I could pull them in\n\nHave a couple of questions though\n\n1. Does this include servers, if so, will need to get Vic involved to confirm this is fine to force\n2. When you say \"Monitor Firewall Status\" is this just monitoring \"On vs off\" or is there anything else that needs to be monitored\n\nThanks",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/650985"
+          }
+        },
+        {
+          "id": 659183,
+          "_info": {
+            "notes": "- Meeting with JK to determine current status of FW config and monitoring\n\nProposed Windows Firewall monitoring/enforcement plan:\n\u00a0\nServers\n Monitor all - and alert if OFF\n Do not enforce\nWorkstations\n Monitor all - and alert if OFF\n Enforce on all workstations\n Create exception group for engineer workstations (devices must be explicitly added to this group to enable Firewall to be locally managed)",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/659183"
+          }
+        },
+        {
+          "id": 665331,
+          "_info": {
+            "notes": "Hey James, I know you were planning on pushing a change control through to get the group policy enforced. Did you want me to create one or will you need to draft the plan?",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/665331"
+          }
+        },
+        {
+          "id": 675548,
+          "_info": {
+            "notes": "Working on Microsoft Defender for endpoint set-up",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/675548"
+          }
+        },
+        {
+          "id": 675557,
+          "_info": {
+            "notes": "Setting up defender and compliance policies for IT360 - next step is to set up hybrid join so devices can be managed in the cloud",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/675557"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:09.772999"
+    },
+    "653433": {
+      "ticket": {
+        "id": 653433,
+        "summary": "Enable MFA on Kaseya Quote Manager",
+        "status": {
+          "name": "Completed"
+        },
+        "project": {
+          "id": 3899,
+          "name": "Cybersecurity Program"
+        },
+        "priority": {
+          "name": "P4 - Normal Response"
+        },
+        "actualHours": 5.52
+      },
+      "notes": [
+        {
+          "id": 650981,
+          "text": "Hey guys,\n\nI don't have access to the Kaseya quote manager admin center it seems, so I can't manage the MFA settings unfortunately. Could I be given access or can this be assigned to someone else?",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 653155,
+          "text": "- Test KQM SSO access. All good.\n- Add all KQM users to KaseyaOne\n- Adjust KQM config to require SSO for all but excepted users. Except all but myself. Test. OK\n- Adjust K1 config to require SSO for all but excepted users. Except all but myself. Test. OK\n- Confirm K1 users and communicate re activation of M365 SSO\n- Enable auto mapping of SSO groups\n- Enable User role as default for SSO users. Found this demoted my admin account to User, removing my Master priviledges\n- Work with DW to regain access\n- Log ticket with Kaseya\n- Document auth and access",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 657914,
+          "text": "- User comms and planning for enforcement of login via KQM...which in turn uses M365.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 662182,
+          "text": "- User comms\n- Documentation\n  - [Kaseya Quote Manager / Datto Commerce / Gluh \u2014 IT Glue](https://it360.itglue.com/19904/assets/483-applications/records/72378482)\n  - [Documents - Kaseya Quote Manager - Access and Authentication \\(itglue.com\\)](https://it360.itglue.com/19904/docs/17573767#version=published&documentMode=view)\n- Disable direct login for Shannon, Iain, Campbell, and Accounts",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 669564,
+          "text": "- Assess remaining users and plan final activations",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 671574,
+          "text": "- Work with Callum to ensure he can log in with MFA\n- Disable non-MFA-based login on KQM for both Callum and Ruth.\n- Message Ruth re the change.",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2556303,
+          "text": "[@Dave](mailto:David.Wilson@iT360.co.nz), do you have any concerns with us providing Jono this access for the duration of this config improvement?\n\nNg\u0101 mihi\n\nJames\u00a0Robinson\nSenior\u00a0Cyber\u00a0Security\u00a0Consultant\n[Book\u00a0a\u00a0meeting\u00a0with\u00a0me\u00a0here.](https://calendly.com/james-robinson-it360/)\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/0c25621a-5a22-454f-ab36-cf6cd74b8923)\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/1c44a10c-b8ee-4003-b36c-f9034d526fd8)+64\u00a021\u00a0751\u00a0345\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/817b0ab9-1db7-4fff-a018-37d6b482aa1a)it360.co.nz/taranaki\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/683e95f1-e2fd-48a3-b7fd-1908468c392a)194\u00a0Courtenay\u00a0Street\n,\nNew\u00a0Plymouth\n\n4312\n[![\\[LinkedIn\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/aa111d35-f38c-43d5-a01e-3f0f97fa3439 \"LinkedIn\")](https://www.linkedin.com/company/it360.nz)\n[![\\[Facebook\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/d7d09edb-a0b5-4de8-b14b-e07098bad578 \"Facebook\")](https://www.facebook.com/iT360Limited/)\nThe\u00a0contents\u00a0of\u00a0this\u00a0message\u00a0and\u00a0all\u00a0attachments\u00a0have\u00a0been\u00a0sent\u00a0in\u00a0confidence\u00a0for\u00a0the\u00a0attention\u00a0of\u00a0the\u00a0addressee\u00a0only\n",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2556377,
+          "text": "I don\u2019t but having just looked in the KSM quote manager admin, this doesn\u2019t seem to be the area wher you enable 2FA, I can\u2019t see the settings there. Perhaps its somewhere else?\n\nDave\u00a0Wilson\nCEO\n[Book\u00a0a\u00a0meeting\u00a0with\u00a0me](https://calendly.com/dave-wilson)\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/124a037d-3a05-47ea-9346-481599f327d5)\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/18f63027-ef1b-456a-a799-746574921bd7)\u00a0[+64\u00a09\u00a0916\u00a01180](tel:+64%209%20916%201180)\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/88b77cf9-4440-413a-bd99-db08701675d6)\u00a0www.i[T360.co.nz](https://www.it360.co.nz/)\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/35c7b939-c444-418a-9d7e-fb43a86bd2cd)\u00a0Level\u00a05,\u00a0205\u00a0Wairau\u00a0Road,\u00a0Wairau\u00a0Valley\n\nAuckland\n,\n0627\n[![\\[LinkedIn\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/e3f073f9-f3b4-4a26-919d-c66455fb17c4 \"LinkedIn\")](https://www.linkedin.com/company/it360.nz)\n[![\\[Facebook\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/06cc84b4-f6e2-498b-930c-e090b3c2bd68 \"Facebook\")](https://www.facebook.com/iT360Limited/)\nThe\u00a0contents\u00a0of\u00a0this\u00a0message\u00a0and\u00a0all\u00a0attachments\u00a0have\u00a0been\u00a0sent\u00a0in\u00a0confidence\u00a0for\u00a0the\u00a0attention\u00a0of\u00a0the\u00a0addressee\u00a0only\n\n**From:**James Robinson <james.robinson@it360.co.nz>\n**Date:** Thursday, 22 August 2024 at 3:09PM\n**To:** Projects Team <Projects@iT360.co.nz>, Dave Wilson <David.Wilson@iT360.co.nz>\n**Subject:** RE: Project Ticket#653433/360/Enable MFA on Kaseya Quote Manager -- has been updated\n\n[@Dave](mailto:David.Wilson@iT360.co.nz), do you have any concerns with us providing Jono this access for the duration of this config improvement?\n\nNg\u0101 mihi\n\n**James\u00a0Robinson**\nSenior\u00a0Cyber\u00a0Security\u00a0Consultant\n[Book\u00a0a\u00a0meeting\u00a0with\u00a0me\u00a0here.](https://calendly.com/james-robinson-it360/)\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/506267d5-7dfd-4d4a-a604-dd4786939818)\n\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/780b1a7c-f6b1-4e1d-8b13-7107521e7f1f)\n+64\u00a021\u00a0751\u00a0345\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/35144f80-4ad5-4e29-80cf-0910467ef7c7)\nit360.co.nz/taranaki\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/ba1a1278-48db-4876-a939-427396f302b5)\n*194\u00a0Courtenay\u00a0Street*\n\n,\n\n*New\u00a0Plymouth*\n\n*4312*\n[![\\[LinkedIn\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/cf6e0e94-bd58-48e1-810f-63ae042d052c)](https://www.linkedin.com/company/it360.nz)\n\n[![\\[Facebook\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/12329eed-1f48-4866-8df6-124b583548cb)](https://www.facebook.com/iT360Limited/)\nThe\u00a0contents\u00a0of\u00a0this\u00a0message\u00a0and\u00a0all\u00a0attachments\u00a0have\u00a0been\u00a0sent\u00a0in\u00a0confidence\u00a0for\u00a0the\u00a0attention\u00a0of\u00a0the\u00a0addressee\u00a0only\n",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        },
+        {
+          "id": 2556390,
+          "text": "Its multi-pronged.\n\n* Enable and test KaseyaOne SSO to M365\n\n* Enforce use of KaseyaOne login for KQM\n\nNg\u0101 mihi\n\nJames\u00a0Robinson\nSenior\u00a0Cyber\u00a0Security\u00a0Consultant\n[Book\u00a0a\u00a0meeting\u00a0with\u00a0me\u00a0here.](https://calendly.com/james-robinson-it360/)\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/c522774a-5fac-4037-b85e-f548c2621426)\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/63c00b0c-28f5-4f09-b658-29a4675337b7)+64\u00a021\u00a0751\u00a0345\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/505c51e4-10df-4b8c-ba22-2fd9dca6d44a)it360.co.nz/taranaki\n![\\[image\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/9e8edc5f-d892-4340-af70-a37982908d7d)194\u00a0Courtenay\u00a0Street\n,\nNew\u00a0Plymouth\n\n4312\n[![\\[LinkedIn\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/32dd8b8d-8ce1-432f-8db6-bbec34a4e944 \"LinkedIn\")](https://www.linkedin.com/company/it360.nz)\n[![\\[Facebook\\]](https://connect.it360.co.nz/v4_6_release/api/inlineimages/it360nz/31b9f39d-079c-4399-9adb-c62cac52e989 \"Facebook\")](https://www.facebook.com/iT360Limited/)\nThe\u00a0contents\u00a0of\u00a0this\u00a0message\u00a0and\u00a0all\u00a0attachments\u00a0have\u00a0been\u00a0sent\u00a0in\u00a0confidence\u00a0for\u00a0the\u00a0attention\u00a0of\u00a0the\u00a0addressee\u00a0only\n",
+          "detailDescriptionFlag": true,
+          "internalAnalysisFlag": false,
+          "resolutionFlag": false
+        }
+      ],
+      "time_entries": [
+        {
+          "id": 650981,
+          "_info": {
+            "notes": "Hey guys,\n\nI don't have access to the Kaseya quote manager admin center it seems, so I can't manage the MFA settings unfortunately. Could I be given access or can this be assigned to someone else?",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/650981"
+          }
+        },
+        {
+          "id": 653155,
+          "_info": {
+            "notes": "- Test KQM SSO access. All good.\n- Add all KQM users to KaseyaOne\n- Adjust KQM config to require SSO for all but excepted users. Except all but myself. Test. OK\n- Adjust K1 config to require SSO for all but excepted users. Except all but myself. Test. OK\n- Confirm K1 users and communicate re activation of M365 SSO\n- Enable auto mapping of SSO groups\n- Enable User role as default for SSO users. Found this demoted my admin account to User, removing my Master priviledges\n- Work with DW to regain access\n- Log ticket with Kaseya\n- Document auth and access",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/653155"
+          }
+        },
+        {
+          "id": 657914,
+          "_info": {
+            "notes": "- User comms and planning for enforcement of login via KQM...which in turn uses M365.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/657914"
+          }
+        },
+        {
+          "id": 662182,
+          "_info": {
+            "notes": "- User comms\n- Documentation\n  - Kaseya Quote Manager / Datto Commerce / Gluh \u2014 IT Glue\n  - Documents - Kaseya Quote Manager - Access and Authentication (itglue.com)\n- Disable direct login for Shannon, Iain, Campbell, and Accounts",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/662182"
+          }
+        },
+        {
+          "id": 669564,
+          "_info": {
+            "notes": "- Assess remaining users and plan final activations",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/669564"
+          }
+        },
+        {
+          "id": 671574,
+          "_info": {
+            "notes": "- Work with Callum to ensure he can log in with MFA\n- Disable non-MFA-based login on KQM for both Callum and Ruth.\n- Message Ruth re the change.",
+            "time_href": "https://connect.it360.co.nz/v4_6_release/apis/3.0/time/entries/671574"
+          }
+        }
+      ],
+      "members": [],
+      "collected_at": "2025-02-11T17:08:09.877671"
+    }
+  },
+  "project_time_entries": [],
+  "members": [
+    {
+      "id": 257
+    }
+  ],
+  "collected_at": "2025-02-11T17:08:09.941492"
+}

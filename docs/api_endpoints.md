@@ -4,6 +4,93 @@ This document outlines the REST API endpoints for interacting with ConnectWise d
 
 ---
 
+## Important Notes
+- Base URL: `https://[your-instance].connectwise.com/v4_6_release/apis/3.0`
+- All endpoints require authentication headers
+- Rate limiting is enforced at 1000 requests per minute
+
+## Key Enum Values
+
+### Time Entry Types
+- `chargeToType`: 
+  - `"ProjectTicket"` - For project-related time entries
+  - `"ServiceTicket"` - For service-related time entries
+  - `"Activity"` - For general activities
+
+## Endpoints
+
+### Projects
+```
+GET /project/projects
+Fields: id,name,status/name,manager/identifier,company/name,estimatedHours,actualHours,scheduledStart,scheduledFinish,billingMethod
+OrderBy: lastUpdated desc (default)
+```
+
+### Project Notes
+```
+GET /project/projects/{id}/notes
+Fields: id,text,detailDescriptionFlag,internalAnalysisFlag,resolutionFlag,dateCreated,createdBy
+```
+
+### Project Tickets
+```
+GET /project/tickets
+Fields: id,summary,status/name,priority/name,project/id,project/name,assignedTo/identifier,dateEntered,estimatedHours,actualHours
+Conditions: project/id={projectId}
+OrderBy: dateEntered desc (default)
+```
+
+### Time Entries
+```
+GET /time/entries
+Fields: id,timeStart,timeEnd,hoursWorked,notes,member/identifier,member/name,chargeToId,chargeToType
+Conditions: chargeToId={projectId} AND chargeToType="ProjectTicket"
+OrderBy: timeStart desc (default)
+```
+
+### Members
+```
+GET /system/members
+Fields: id,name
+Conditions: identifier IN (comma-separated-list)
+OrderBy: firstName asc (default)
+```
+
+## Common Parameters
+- `page`: Page number (default: 1)
+- `pageSize`: Items per page (default: 100, max: 1000)
+- `fields`: Comma-separated list of fields to return
+- `conditions`: Filter conditions
+- `orderBy`: Sort order
+
+## Response Format
+All responses are JSON and follow this general structure:
+```json
+{
+    "id": integer,
+    "field1": value1,
+    "field2": value2,
+    ...
+}
+```
+
+## Error Handling
+- 400: Bad Request (invalid parameters)
+- 401: Unauthorized (invalid credentials)
+- 403: Forbidden (insufficient permissions)
+- 404: Not Found
+- 429: Too Many Requests (rate limit exceeded)
+- 500: Internal Server Error
+
+## Rate Limiting
+- 1000 requests per minute per client
+- Rate limit headers:
+  - `X-Rate-Limit-Limit`
+  - `X-Rate-Limit-Remaining`
+  - `X-Rate-Limit-Reset`
+
+---
+
 ## 1. Project Data Collection
 
 ### GET /project/projects

@@ -1,0 +1,23 @@
+try:
+    # ... existing code ...
+except Exception as e:
+    agentops.record_error(str(e))
+    raise
+// ... existing code ...
+try:
+    # ... existing code ...
+except Exception as e:
+    agentops.record_error(str(e))
+    raise
+// ... existing code ...
+try:
+    # ... existing code ...
+except Exception as e:
+    agentops.record_error(str(e))
+    raise
+// ... existing code ...
+try:
+    # ... existing code ...
+except Exception as e:
+    agentops.record_error(str(e))
+    raise 

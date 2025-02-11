@@ -1,0 +1,109 @@
+{
+  "project_id": 4122,
+  "project_name": "Quote S13122 - ECB - Server to MS365 Cloud Migration",
+  "status": "3. In Delivery",
+  "manager": "LeonieV",
+  "company": "East Coast Bays Engineering (2015) Limited",
+  "estimated_hours": 0.0,
+  "actual_hours": 28.39,
+  "ticket_count": 13,
+  "active_tickets": 5,
+  "ticket_summaries": [
+    {
+      "id": 683492,
+      "summary": "Internal Kick-off Meeting",
+      "status": "Closed",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 683117,
+      "summary": "Documentation",
+      "status": "In Progress Now",
+      "progress": 50,
+      "key_updates": 0
+    },
+    {
+      "id": 683109,
+      "summary": "Post Migration",
+      "status": "In Progress Now",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 683107,
+      "summary": "NAS and DB Migration ",
+      "status": "In Progress Now",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 683105,
+      "summary": "AD Decommissioning",
+      "status": "Completed",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 683104,
+      "summary": "Migrating DNS & DHCP from server to Gateway device",
+      "status": "Completed",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 683103,
+      "summary": "SharePoint Migration",
+      "status": "In Progress Now",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 683102,
+      "summary": "Decommission Scanner Licenses and Setup SMTP2GO",
+      "status": "Completed",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 683101,
+      "summary": "Azure AD join and moving the user profile to OneDrive",
+      "status": "Completed",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 683100,
+      "summary": "Requirements Analysis ",
+      "status": "Completed",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 680134,
+      "summary": "iT360 365 backups (Cove)",
+      "status": "Completed",
+      "progress": 47,
+      "key_updates": 0
+    },
+    {
+      "id": 680133,
+      "summary": "Huntress 365 MDR",
+      "status": "Completed",
+      "progress": 17,
+      "key_updates": 0
+    },
+    {
+      "id": 680068,
+      "summary": "Project Management & Administation",
+      "status": "In Progress Now",
+      "progress": 100,
+      "key_updates": 0
+    }
+  ],
+  "project_updates": [],
+  "team_members": [
+    "251"
+  ],
+  "analysis_date": "2025-02-11T17:08:43.018360"
+}

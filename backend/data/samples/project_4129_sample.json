@@ -1,0 +1,49 @@
+{
+  "project": {
+    "id": 4129,
+    "actualHours": 4.41,
+    "billingMethod": "FixedFee",
+    "company": {
+      "name": "MyHR Limited (Spark West)"
+    },
+    "estimatedHours": 0.0,
+    "manager": {
+      "identifier": "LeonieV"
+    },
+    "name": "Quote S13153 - MyHR - Australian Firewall",
+    "scheduledStart": "2024-12-16T11:30:00Z",
+    "status": {
+      "name": "3. In Delivery"
+    }
+  },
+  "notes": [
+    {
+      "id": 1529,
+      "text": "Bradley to configure, liaise with customer regarding location of site to ship Firewall to in Australia."
+    }
+  ],
+  "tickets": [
+    {
+      "id": 681606,
+      "summary": "AUS FW - Configuration and Setup",
+      "status": {
+        "name": "In Progress Now"
+      },
+      "project": {
+        "id": 4129,
+        "name": "Quote S13153 - MyHR - Australian Firewall"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 4.41
+    }
+  ],
+  "time_entries": [],
+  "members": [
+    {
+      "id": 251
+    }
+  ],
+  "collected_at": "2025-02-11T07:57:15.234941"
+}

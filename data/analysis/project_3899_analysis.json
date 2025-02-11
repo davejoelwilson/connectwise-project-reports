@@ -1,0 +1,242 @@
+{
+  "project_id": 3899,
+  "project_name": "Cybersecurity Program",
+  "status": "3. In Delivery",
+  "manager": "JamesR",
+  "company": "iT360 Limited",
+  "estimated_hours": 0.0,
+  "actual_hours": 74.68,
+  "ticket_count": 32,
+  "active_tickets": 25,
+  "ticket_summaries": [
+    {
+      "id": 696603,
+      "summary": "365 Security Work",
+      "status": "In Progress",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 693000,
+      "summary": "Project Management",
+      "status": "In Progress",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 692999,
+      "summary": "Upgrade Replace or Decommission IT360RADIUS (Win16)",
+      "status": "In Progress",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 692998,
+      "summary": "Upgrade Replace or Decommission IT360MDM01 (Win16)",
+      "status": "In Progress",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 692997,
+      "summary": "Upgrade Replace or Decommission IT360PRTG (Win12R2)",
+      "status": "In Progress",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 692995,
+      "summary": "Upgrade Replace or Decommission IT360NCREP (Win12R2)",
+      "status": "In Progress",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 692991,
+      "summary": "Upgrade Replace or Decommission IT360DATA (Win08R2)",
+      "status": "In Progress",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 685992,
+      "summary": "Foundations",
+      "status": "In Progress",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 683084,
+      "summary": "Roadmap",
+      "status": "Completed",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 680887,
+      "summary": "Roll Entra Connect Keys",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 680874,
+      "summary": "SPF, DKIM, and DMARC Review",
+      "status": "In Progress",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 679327,
+      "summary": "Enable Windows Firewall on iT360CW01, iT360DATA, iT360NCREP, iT360RADIUS, and iT360VEEAM01",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 679321,
+      "summary": "IG1 Assessment",
+      "status": "Completed",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 678065,
+      "summary": "Add new mail-system alerts in Exchange Mailflow Alerts",
+      "status": "New",
+      "progress": 50,
+      "key_updates": 0
+    },
+    {
+      "id": 677874,
+      "summary": "Enterprise Asset Policy Development",
+      "status": "In Progress",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 677211,
+      "summary": "Implement Businesss Premium Activation Asana Template on iT360 environment",
+      "status": "In Progress",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 676791,
+      "summary": "iTG Password Security",
+      "status": "Completed",
+      "progress": 50,
+      "key_updates": 0
+    },
+    {
+      "id": 675372,
+      "summary": "Security Review 3CX solution design",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 672233,
+      "summary": "Implement PIM RAMP (Rapid Modernisation Plan) from Microsoft",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 671940,
+      "summary": "CJ - Create USB Drive Policy",
+      "status": "Completed",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 671907,
+      "summary": "Implement SaaS Application Access Standard",
+      "status": "New",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 668726,
+      "summary": "Configure SSO via Entra ID for Google Services",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 667520,
+      "summary": "Mature MFA and SSPR to Authentication Methods in Entra ID",
+      "status": "In Progress",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 667050,
+      "summary": "Acceptable Use Policy",
+      "status": "In Progress",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 664839,
+      "summary": "Create SaaS Application Access Standard",
+      "status": "Completed",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 664087,
+      "summary": "Incident Response Policy and Plan",
+      "status": "In Progress",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 656673,
+      "summary": "Enable MFA on Apple Business Manager",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 656645,
+      "summary": "Create Businesss Premium Activation Asana Template",
+      "status": "Completed",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 655112,
+      "summary": "Project Management",
+      "status": "New",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 655107,
+      "summary": "Establish Password Change Regime for Infrastructure",
+      "status": "New",
+      "progress": 0,
+      "key_updates": 0
+    },
+    {
+      "id": 653439,
+      "summary": "Enforce and monitor firewall status on workstations and networks",
+      "status": "New",
+      "progress": 100,
+      "key_updates": 0
+    },
+    {
+      "id": 653433,
+      "summary": "Enable MFA on Kaseya Quote Manager",
+      "status": "Completed",
+      "progress": 100,
+      "key_updates": 0
+    }
+  ],
+  "project_updates": [],
+  "team_members": [
+    "257"
+  ],
+  "analysis_date": "2025-02-11T17:08:09.948099"
+}

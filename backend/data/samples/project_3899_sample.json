@@ -1,0 +1,499 @@
+{
+  "project": {
+    "id": 3899,
+    "actualHours": 74.68,
+    "billingMethod": "ActualRates",
+    "company": {
+      "name": "iT360 Limited"
+    },
+    "estimatedHours": 0.0,
+    "manager": {
+      "identifier": "JamesR"
+    },
+    "name": "Cybersecurity Program",
+    "scheduledStart": "2024-11-12T00:00:00Z",
+    "status": {
+      "name": "3. In Delivery"
+    }
+  },
+  "notes": [],
+  "tickets": [
+    {
+      "id": 696603,
+      "summary": "365 Security Work",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 7.87
+    },
+    {
+      "id": 693000,
+      "summary": "Project Management",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.25
+    },
+    {
+      "id": 692999,
+      "summary": "Upgrade Replace or Decommission IT360RADIUS (Win16)",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.12
+    },
+    {
+      "id": 692998,
+      "summary": "Upgrade Replace or Decommission IT360MDM01 (Win16)",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 692997,
+      "summary": "Upgrade Replace or Decommission IT360PRTG (Win12R2)",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 692995,
+      "summary": "Upgrade Replace or Decommission IT360NCREP (Win12R2)",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.16
+    },
+    {
+      "id": 692991,
+      "summary": "Upgrade Replace or Decommission IT360DATA (Win08R2)",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 685992,
+      "summary": "Foundations",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 7.25
+    },
+    {
+      "id": 683084,
+      "summary": "Roadmap",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.0
+    },
+    {
+      "id": 680887,
+      "summary": "Roll Entra Connect Keys",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 680874,
+      "summary": "SPF, DKIM, and DMARC Review",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 8.25
+    },
+    {
+      "id": 679327,
+      "summary": "Enable Windows Firewall on iT360CW01, iT360DATA, iT360NCREP, iT360RADIUS, and iT360VEEAM01",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 679321,
+      "summary": "IG1 Assessment",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 5.75
+    },
+    {
+      "id": 678065,
+      "summary": "Add new mail-system alerts in Exchange Mailflow Alerts",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.5
+    },
+    {
+      "id": 677874,
+      "summary": "Enterprise Asset Policy Development",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.25
+    },
+    {
+      "id": 677211,
+      "summary": "Implement Businesss Premium Activation Asana Template on iT360 environment",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.75
+    },
+    {
+      "id": 676791,
+      "summary": "iTG Password Security",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 0.5
+    },
+    {
+      "id": 675372,
+      "summary": "Security Review 3CX solution design",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 672233,
+      "summary": "Implement PIM RAMP (Rapid Modernisation Plan) from Microsoft",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 671940,
+      "summary": "CJ - Create USB Drive Policy",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 2.25
+    },
+    {
+      "id": 671907,
+      "summary": "Implement SaaS Application Access Standard",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 1.16
+    },
+    {
+      "id": 668726,
+      "summary": "Configure SSO via Entra ID for Google Services",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 667520,
+      "summary": "Mature MFA and SSPR to Authentication Methods in Entra ID",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 5.02
+    },
+    {
+      "id": 667050,
+      "summary": "Acceptable Use Policy",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 7.25
+    },
+    {
+      "id": 664839,
+      "summary": "Create SaaS Application Access Standard",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 3.0
+    },
+    {
+      "id": 664087,
+      "summary": "Incident Response Policy and Plan",
+      "status": {
+        "name": "In Progress"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 5.0
+    },
+    {
+      "id": 656673,
+      "summary": "Enable MFA on Apple Business Manager",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 656645,
+      "summary": "Create Businesss Premium Activation Asana Template",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 2.13
+    },
+    {
+      "id": 655112,
+      "summary": "Project Management",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 3.25
+    },
+    {
+      "id": 655107,
+      "summary": "Establish Password Change Regime for Infrastructure",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      }
+    },
+    {
+      "id": 653439,
+      "summary": "Enforce and monitor firewall status on workstations and networks",
+      "status": {
+        "name": "New"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 2.45
+    },
+    {
+      "id": 653433,
+      "summary": "Enable MFA on Kaseya Quote Manager",
+      "status": {
+        "name": "Completed"
+      },
+      "project": {
+        "id": 3899,
+        "name": "Cybersecurity Program"
+      },
+      "priority": {
+        "name": "P4 - Normal Response"
+      },
+      "actualHours": 5.52
+    }
+  ],
+  "time_entries": [],
+  "members": [
+    {
+      "id": 257
+    }
+  ],
+  "collected_at": "2025-02-11T07:57:14.901200"
+}

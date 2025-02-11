@@ -1,5 +1,5 @@
 import pytest
-from backend.connectwise.client import ConnectWiseClient, RateLimiter
+from connectwise.client import ConnectWiseClient, RateLimiter
 import logging
 import os
 import asyncio
@@ -40,19 +40,24 @@ async def test_concurrent_requests(cw_client):
     # Make multiple concurrent requests
     tasks = []
     for _ in range(5):
-        tasks.append(cw_client.get_projects({'page': 1, 'pageSize': 1}))
+        # Create a new coroutine for each request
+        tasks.append(asyncio.create_task(cw_client.get_projects({'page': 1, 'pageSize': 1})))
     
     # All requests should complete without errors
     results = await asyncio.gather(*tasks, return_exceptions=True)
-    assert all(not isinstance(r, Exception) for r in results), "All requests should succeed"
+    assert all(not isinstance(r, Exception) for r in results), f"All requests should succeed, got: {results}"
 
 @pytest.mark.asyncio
 async def test_verify_credentials(cw_client):
     """Test basic credential verification"""
-    headers = await cw_client._get_headers()
-    logger.debug(f"Request headers: {headers}")
-    result = await cw_client.verify_credentials()
-    assert result == True, "Credentials verification failed"
+    try:
+        headers = await cw_client._get_headers()
+        logger.debug(f"Request headers: {headers}")
+        result = await cw_client.verify_credentials()
+        assert result == True, "Credentials verification failed"
+    except Exception as e:
+        logger.error(f"Credential verification failed: {str(e)}")
+        raise
 
 @pytest.mark.asyncio
 async def test_basic_project_list(cw_client):
