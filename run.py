@@ -36,37 +36,42 @@ def check_environment():
         logger.error("Please check your .env file")
         sys.exit(1)
 
-def run_streamlit():
-    """Run the Streamlit dashboard"""
+def run_backend():
+    """Run the FastAPI backend server"""
     try:
-        logger.info("Starting Streamlit dashboard...")
-        streamlit_cmd = [
-            sys.executable,  # Use the same Python interpreter
-            "-m", "streamlit", "run",
-            "backend/visualization/app.py",
-            "--server.port=8501",
-            "--server.address=0.0.0.0"
+        logger.info("Starting FastAPI backend...")
+        backend_cmd = [
+            sys.executable,
+            "-m", "uvicorn",
+            "backend.main:app",
+            "--host", "127.0.0.1",
+            "--port", "8000",
+            "--reload"
         ]
         return subprocess.Popen(
-            streamlit_cmd,
+            backend_cmd,
             env=os.environ.copy()
         )
     except Exception as e:
-        logger.error(f"Failed to start Streamlit: {e}")
+        logger.error(f"Failed to start backend: {e}")
         return None
 
-def run_analysis_pipeline():
-    """Run the initial analysis pipeline"""
+def run_frontend():
+    """Run the Next.js frontend"""
     try:
-        logger.info("Running initial project analysis...")
-        subprocess.run([
-            sys.executable,  # Use the same Python interpreter
-            "backend/scripts/run_analysis_pipeline.py"
-        ], check=True, env=os.environ.copy())
-    except subprocess.CalledProcessError as e:
-        logger.error(f"Analysis pipeline failed: {e}")
+        logger.info("Starting Next.js frontend...")
+        frontend_cmd = [
+            "npm",
+            "run", "dev"
+        ]
+        return subprocess.Popen(
+            frontend_cmd,
+            cwd="frontend/ai-dashboard",
+            env=os.environ.copy()
+        )
     except Exception as e:
-        logger.error(f"Error running analysis pipeline: {e}")
+        logger.error(f"Failed to start frontend: {e}")
+        return None
 
 def cleanup(processes):
     """Clean up processes on shutdown"""
@@ -93,18 +98,23 @@ def main():
     processes = []
     
     try:
-        # Run initial analysis
-        run_analysis_pipeline()
+        # Start backend first
+        backend_process = run_backend()
+        if backend_process:
+            processes.append(backend_process)
+            # Wait a bit for backend to start
+            time.sleep(2)
         
-        # Start Streamlit
-        streamlit_process = run_streamlit()
-        if streamlit_process:
-            processes.append(streamlit_process)
+        # Start frontend
+        frontend_process = run_frontend()
+        if frontend_process:
+            processes.append(frontend_process)
             
             # Print access URLs
             logger.info("\n" + "="*50)
             logger.info("Services started successfully!")
-            logger.info("Access the dashboard at: http://localhost:8501")
+            logger.info("Access the dashboard at: http://localhost:3000")
+            logger.info("API documentation at: http://localhost:8000/docs")
             logger.info("="*50 + "\n")
             
             # Wait for interrupt
