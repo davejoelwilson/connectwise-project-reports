@@ -44,4 +44,4 @@ htmlcov/
 .pytest_cache/
 
 # Project specific
-project_config.json 
+project_config.json data/
