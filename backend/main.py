@@ -1,9 +1,12 @@
-from fastapi import FastAPI, HTTPException, Query, Depends, Path
+from fastapi import FastAPI, HTTPException, Query, Depends, Path as FastAPIPath
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional, Dict, List
 from datetime import datetime, timedelta
+from pathlib import Path
+import json
 
 from connectwise.client import ConnectWiseClient
+from analysis.project_analyzer import analyze_project_file
 
 app = FastAPI(title="ConnectWise Project Reporting Backend", version="0.1.0")
 
@@ -28,7 +31,22 @@ async def get_cw_client():
 async def read_root():
     return {"status": "healthy", "service": "ConnectWise Project Reporting API"}
 
-@app.get("/projects")
+@app.get("/api/analysis/{project_id}")
+async def get_project_analysis(project_id: int):
+    """Get AI analysis for a specific project"""
+    try:
+        # Check if analysis exists
+        analysis_file = Path(f"data/ai_analysis/project_{project_id}_ai_analysis.json")
+        if not analysis_file.exists():
+            raise HTTPException(status_code=404, detail="Analysis not found")
+            
+        # Return the analysis directly
+        with open(analysis_file) as f:
+            return json.load(f)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/projects")
 async def get_projects(
     client: ConnectWiseClient = Depends(get_cw_client),
     test_mode: bool = Query(False, description="Use test mode with minimal parameters"),
@@ -49,9 +67,9 @@ async def get_projects(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/projects/{project_id}")
+@app.get("/api/projects/{project_id}")
 async def get_project(
-    project_id: int = Path(..., description="The ID of the project to retrieve"),
+    project_id: int = FastAPIPath(..., description="The ID of the project to retrieve"),
     client: ConnectWiseClient = Depends(get_cw_client)
 ):
     try:
@@ -59,9 +77,9 @@ async def get_project(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/projects/{project_id}/tickets")
+@app.get("/api/projects/{project_id}/tickets")
 async def get_project_tickets(
-    project_id: int = Path(..., description="The ID of the project"),
+    project_id: int = FastAPIPath(..., description="The ID of the project"),
     client: ConnectWiseClient = Depends(get_cw_client),
     page: int = Query(1, ge=1),
     page_size: int = Query(50, ge=1, le=100)
@@ -72,9 +90,9 @@ async def get_project_tickets(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/projects/{project_id}/notes")
+@app.get("/api/projects/{project_id}/notes")
 async def get_project_notes(
-    project_id: int = Path(..., description="The ID of the project"),
+    project_id: int = FastAPIPath(..., description="The ID of the project"),
     client: ConnectWiseClient = Depends(get_cw_client),
     page: int = Query(1, ge=1),
     page_size: int = Query(50, ge=1, le=100)
@@ -85,7 +103,7 @@ async def get_project_notes(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/tickets")
+@app.get("/api/tickets")
 async def get_tickets(
     client: ConnectWiseClient = Depends(get_cw_client),
     project_id: Optional[int] = Query(None, description="Filter by project ID"),
@@ -109,9 +127,9 @@ async def get_tickets(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/tickets/{ticket_id}")
+@app.get("/api/tickets/{ticket_id}")
 async def get_ticket(
-    ticket_id: int = Path(..., description="The ID of the ticket to retrieve"),
+    ticket_id: int = FastAPIPath(..., description="The ID of the ticket to retrieve"),
     client: ConnectWiseClient = Depends(get_cw_client)
 ):
     try:
@@ -119,9 +137,9 @@ async def get_ticket(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/tickets/{ticket_id}/time-entries")
+@app.get("/api/tickets/{ticket_id}/time-entries")
 async def get_ticket_time_entries(
-    ticket_id: int = Path(..., description="The ID of the ticket"),
+    ticket_id: int = FastAPIPath(..., description="The ID of the ticket"),
     client: ConnectWiseClient = Depends(get_cw_client),
     page: int = Query(1, ge=1),
     page_size: int = Query(50, ge=1, le=100)
@@ -132,9 +150,9 @@ async def get_ticket_time_entries(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/tickets/{ticket_id}/notes")
+@app.get("/api/tickets/{ticket_id}/notes")
 async def get_ticket_notes(
-    ticket_id: int = Path(..., description="The ID of the ticket"),
+    ticket_id: int = FastAPIPath(..., description="The ID of the ticket"),
     client: ConnectWiseClient = Depends(get_cw_client),
     page: int = Query(1, ge=1),
     page_size: int = Query(50, ge=1, le=100)
@@ -145,7 +163,7 @@ async def get_ticket_notes(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/time-entries")
+@app.get("/api/time-entries")
 async def get_time_entries(
     client: ConnectWiseClient = Depends(get_cw_client),
     project_id: Optional[int] = Query(None, description="Filter by project ID"),
@@ -168,7 +186,7 @@ async def get_time_entries(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/members")
+@app.get("/api/members")
 async def get_members(
     client: ConnectWiseClient = Depends(get_cw_client),
     active_only: bool = Query(True, description="Only show active members")

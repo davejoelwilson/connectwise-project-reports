@@ -31,23 +31,79 @@ class AIProjectAnalyzer:
                 return json.load(f)
         
         try:
+            system_prompt = """You are a project analysis expert. Analyze the project data and provide insights in JSON format.
+DO NOT use any markdown formatting or code blocks. Return ONLY the raw JSON object.
+The response must be a valid JSON object with the following structure:
+{
+    "health_score": number between 0-100,
+    "progress_analysis": {
+        "summary": string describing overall progress,
+        "completion_rate": number between 0-100,
+        "on_track": boolean,
+        "concerns": string[] of progress concerns
+    },
+    "risks": {
+        "level": "LOW" | "MEDIUM" | "HIGH",
+        "factors": string[] of risk factors,
+        "mitigation_suggestions": string[]
+    },
+    "blockers": {
+        "current_blockers": string[],
+        "potential_blockers": string[]
+    },
+    "resource_analysis": {
+        "summary": string describing resource utilization,
+        "concerns": string[],
+        "recommendations": string[]
+    },
+    "recommendations": {
+        "immediate_actions": string[],
+        "long_term_improvements": string[]
+    },
+    "timeline_prediction": {
+        "likely_completion": string (date or time range),
+        "confidence": number between 0-100,
+        "factors_affecting_timeline": string[]
+    }
+}"""
+
             # Call OpenAI API with modern client
             response = await self.client.chat.completions.create(
-                model="gpt-4",
+                model="o3-mini",
                 messages=[
-                    {"role": "system", "content": "You are a project analysis expert. Analyze the project data and provide insights about health, progress, risks, resources, and timeline."},
+                    {"role": "system", "content": system_prompt},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.7,
-                max_tokens=2000
+                max_tokens=2000,
+                response_format={ "type": "json_object" }
             )
             
-            # Parse the response
-            analysis = {
-                'insights': response.choices[0].message.content,
-                'analyzed_at': datetime.now().isoformat(),
-                'model_version': "gpt-4"
-            }
+            # Parse the JSON response
+            try:
+                content = response.choices[0].message.content
+                # Remove any potential markdown formatting (shouldn't be needed with the new prompt)
+                if content.startswith("```") and content.endswith("```"):
+                    content = content.split("```")[1]
+                    if content.startswith("json\n"):
+                        content = content[5:]
+                    elif content.startswith("\n"):
+                        content = content[1:]
+                    if content.endswith("\n"):
+                        content = content[:-1]
+                analysis = json.loads(content)
+                analysis.update({
+                    'analyzed_at': datetime.now().isoformat(),
+                    'model_version': "o3-mini"
+                })
+            except json.JSONDecodeError:
+                # Fallback if JSON parsing fails
+                analysis = {
+                    'error': 'Failed to parse AI response as JSON',
+                    'raw_response': response.choices[0].message.content,
+                    'analyzed_at': datetime.now().isoformat(),
+                    'model_version': "o3-mini"
+                }
             
             # Cache the results
             with open(cache_file, 'w') as f:
@@ -56,11 +112,12 @@ class AIProjectAnalyzer:
             return analysis
             
         except Exception as e:
-            return {
+            error_response = {
                 'error': str(e),
                 'analyzed_at': datetime.now().isoformat(),
                 'status': 'failed'
             }
+            return error_response
 
     async def analyze_multiple_projects(self, project_prompts: Dict[int, str]) -> Dict[int, dict]:
         """Analyze multiple projects in parallel"""
