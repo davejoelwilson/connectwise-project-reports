@@ -44,6 +44,12 @@
   - [ ] Concurrency testing
   - [ ] Rate limit testing
   - [ ] Memory usage monitoring
+- [ ] Frontend Testing:
+  - [ ] Set up Cypress for E2E testing
+  - [ ] Add component tests
+  - [ ] Add integration tests
+  - [ ] Add visual regression tests
+  - [ ] Add accessibility tests
 
 ## Phase 5: Basic Visualization ✅
 - [x] Set up Streamlit dashboard

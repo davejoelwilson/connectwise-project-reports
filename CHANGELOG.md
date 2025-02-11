@@ -38,6 +38,12 @@ All notable changes to this project will be documented in this file.
 - Improved parameter handling in client methods
 - Modified project analyzer to include raw ticket data in output
 - Enhanced ticket table display with expanded view by default
+- Fixed text color contrast issues in frontend components:
+  - Changed main content text from gray to black for better readability
+  - Updated section headers to black with medium font weight
+  - Made labels dark gray (gray-700) with medium font weight
+  - Ensured consistent text colors across all analysis cards
+  - Improved visual hierarchy with proper contrast ratios
 
 ### Fixed
 - Connection pooling issues in API client
@@ -46,6 +52,11 @@ All notable changes to this project will be documented in this file.
 - Validation error messages to match Pydantic V2
 - Time entry collection using correct chargeToType enum value
 - Project data collection with proper field sets
+- Frontend text readability by updating text colors:
+  - Changed text-gray-600 to text-black for main content
+  - Updated text-gray-600 to text-gray-700 for labels
+  - Added font-medium to headers and labels
+  - Fixed low contrast text in all analysis components
 
 ## [0.1.0] - 2025-02-11
 
