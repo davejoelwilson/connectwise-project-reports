@@ -10,6 +10,7 @@ import streamlit as st
 import json
 from datetime import datetime
 import pandas as pd
+import asyncio
 
 from backend.analysis.detailed_analyzer import DetailedProjectAnalyzer
 from backend.analysis.ai_analyzer import AIProjectAnalyzer
@@ -68,44 +69,119 @@ def display_ticket_metrics(analysis: dict):
 
 def display_ai_insights(ai_analysis: dict):
     """Display AI-generated insights"""
-    st.header("AI Analysis Insights")
-    
-    # Display health score
+    if 'error' in ai_analysis:
+        st.error(f"AI Analysis Error: {ai_analysis['error']}")
+        return
+
+    # Project Health Score with color coding
+    st.header("🎯 Project Health Analysis")
     health_score = ai_analysis.get('health_score', 0)
-    st.progress(health_score / 100)
-    st.write(f"Project Health Score: {health_score}/100")
+    color = 'red' if health_score < 40 else 'yellow' if health_score < 70 else 'green'
+    st.markdown(f"### Health Score: :{color}[{health_score}/100]")
     
     # Progress Analysis
-    st.subheader("Progress Analysis")
-    st.write(ai_analysis.get('progress_analysis', 'No analysis available'))
+    st.header("📈 Progress Analysis")
+    progress = ai_analysis.get('progress_analysis', {})
+    st.markdown(f"**Summary:** {progress.get('summary', 'No summary available')}")
+    
+    # Progress metrics in columns
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.metric("Completion Rate", f"{progress.get('completion_rate', 0)}%")
+    with col2:
+        on_track = progress.get('on_track', False)
+        st.metric("On Track", "✅ Yes" if on_track else "❌ No")
+    with col3:
+        concerns = progress.get('concerns', [])
+        st.metric("Concerns", len(concerns))
+    
+    if concerns:
+        with st.expander("View Progress Concerns"):
+            for concern in concerns:
+                st.warning(concern)
     
     # Risks and Blockers
+    st.header("⚠️ Risks & Blockers")
     col1, col2 = st.columns(2)
+    
     with col1:
         st.subheader("Risks")
-        risks = ai_analysis.get('risks', [])
-        for risk in risks:
-            st.warning(risk)
-            
+        risks = ai_analysis.get('risks', {})
+        risk_level = risks.get('level', 'UNKNOWN')
+        risk_color = {'LOW': 'green', 'MEDIUM': 'yellow', 'HIGH': 'red'}.get(risk_level, 'gray')
+        st.markdown(f"**Risk Level:** :{risk_color}[{risk_level}]")
+        
+        if risks.get('factors'):
+            st.markdown("**Risk Factors:**")
+            for factor in risks['factors']:
+                st.warning(factor)
+                
+        if risks.get('mitigation_suggestions'):
+            with st.expander("View Mitigation Suggestions"):
+                for suggestion in risks['mitigation_suggestions']:
+                    st.info(suggestion)
+    
     with col2:
         st.subheader("Blockers")
-        blockers = ai_analysis.get('blockers', [])
-        for blocker in blockers:
-            st.error(blocker)
+        blockers = ai_analysis.get('blockers', {})
+        
+        if blockers.get('current_blockers'):
+            st.markdown("**Current Blockers:**")
+            for blocker in blockers['current_blockers']:
+                st.error(blocker)
+                
+        if blockers.get('potential_blockers'):
+            with st.expander("View Potential Blockers"):
+                for blocker in blockers['potential_blockers']:
+                    st.warning(blocker)
     
     # Resource Analysis
-    st.subheader("Resource Analysis")
-    st.write(ai_analysis.get('resource_analysis', 'No analysis available'))
+    st.header("👥 Resource Analysis")
+    resources = ai_analysis.get('resource_analysis', {})
+    st.markdown(f"**Summary:** {resources.get('summary', 'No resource analysis available')}")
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        if resources.get('concerns'):
+            st.markdown("**Resource Concerns:**")
+            for concern in resources['concerns']:
+                st.warning(concern)
+    
+    with col2:
+        if resources.get('recommendations'):
+            st.markdown("**Resource Recommendations:**")
+            for rec in resources['recommendations']:
+                st.info(rec)
     
     # Recommendations
-    st.subheader("Recommendations")
-    recommendations = ai_analysis.get('recommendations', [])
-    for rec in recommendations:
-        st.info(rec)
+    st.header("💡 Recommendations")
+    recommendations = ai_analysis.get('recommendations', {})
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("Immediate Actions")
+        for action in recommendations.get('immediate_actions', []):
+            st.info(action)
+            
+    with col2:
+        st.subheader("Long-term Improvements")
+        for improvement in recommendations.get('long_term_improvements', []):
+            st.success(improvement)
     
     # Timeline Prediction
-    st.subheader("Timeline Prediction")
-    st.write(ai_analysis.get('timeline_prediction', 'No prediction available'))
+    st.header("🗓️ Timeline Prediction")
+    timeline = ai_analysis.get('timeline_prediction', {})
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        st.metric("Likely Completion", timeline.get('likely_completion', 'Unknown'))
+        st.metric("Confidence", f"{timeline.get('confidence', 0)}%")
+        
+    with col2:
+        if timeline.get('factors_affecting_timeline'):
+            st.markdown("**Factors Affecting Timeline:**")
+            for factor in timeline['factors_affecting_timeline']:
+                st.info(factor)
 
 def display_ticket_details(analysis: dict):
     """Display detailed ticket information"""
@@ -123,11 +199,50 @@ def display_ticket_details(analysis: dict):
         else:
             return 'color: red'
     
-    # Display styled dataframe
+    # Display styled dataframe using the new map method instead of applymap
     st.dataframe(
-        tickets_df.style.applymap(color_status, subset=['status']),
+        tickets_df.style.map(color_status, subset=['status']),
         use_container_width=True
     )
+
+async def run_fresh_analysis(project_id: int, detailed_data: dict) -> dict:
+    """Run a fresh AI analysis for the project"""
+    try:
+        analyzer = DetailedProjectAnalyzer(detailed_data)
+        prompt = analyzer.prepare_ai_prompt()
+        
+        ai_analyzer = AIProjectAnalyzer()
+        analysis = await ai_analyzer.analyze_project(prompt, project_id)
+        
+        if 'error' in analysis:
+            raise Exception(analysis['error'])
+        
+        # Save the new analysis
+        data_dir = Path('data')
+        ai_file = data_dir / 'ai_analysis' / f"project_{project_id}_ai_analysis.json"
+        with open(ai_file, 'w') as f:
+            json.dump(analysis, f, indent=2)
+        
+        return analysis
+        
+    except Exception as e:
+        st.error(f"AI Analysis failed: {str(e)}")
+        # Return the previous analysis if available
+        try:
+            data_dir = Path('data')
+            ai_file = data_dir / 'ai_analysis' / f"project_{project_id}_ai_analysis.json"
+            if ai_file.exists():
+                with open(ai_file) as f:
+                    return json.load(f)
+        except:
+            pass
+        
+        # Return a basic error structure if all else fails
+        return {
+            'error': str(e),
+            'analyzed_at': datetime.now().isoformat(),
+            'status': 'failed'
+        }
 
 def main():
     st.set_page_config(
@@ -169,7 +284,28 @@ def main():
         
         st.markdown("---")
         
-        # AI Insights
+        # AI Analysis Section with Refresh Button
+        ai_col1, ai_col2 = st.columns([3, 1])
+        with ai_col1:
+            st.header("AI Analysis Insights")
+            if 'analyzed_at' in ai_analysis:
+                st.caption(f"Last analyzed: {ai_analysis['analyzed_at']}")
+        with ai_col2:
+            if st.button("🔄 Run Fresh Analysis", type="primary", help="Generate new AI insights for this project"):
+                try:
+                    with st.spinner("Running AI analysis..."):
+                        # Run fresh analysis
+                        new_analysis = asyncio.run(run_fresh_analysis(selected_project, detailed_data))
+                        if 'error' not in new_analysis:
+                            st.success("Analysis complete!")
+                            ai_analysis = new_analysis
+                            st.rerun()
+                        else:
+                            st.error(f"Analysis failed: {new_analysis['error']}")
+                except Exception as e:
+                    st.error(f"Failed to run analysis: {str(e)}")
+        
+        # Display AI insights
         display_ai_insights(ai_analysis)
         
         st.markdown("---")
